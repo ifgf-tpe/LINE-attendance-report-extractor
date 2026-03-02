@@ -1,0 +1,3508 @@
+Filtered Sunday Attendance Reports (Adult count OR Total-only)
+Source: data/LINE chat report.txt
+Generated: 2026-03-03 00:02:37
+
+Sun, 01/02/2022
+11:10AM	elya，8號11班建榮＆3年6班建信	Ifgf zhongli 43 adult, youth 4, kids 1
+03:40PM	elya，8號11班建榮＆3年6班建信	 Taipei 54 adult,.kids 4, youth 2
+
+Sun, 01/09/2022
+10:55AM	Ps. Corwin Yehuda L	"Zhongli
+Adult + college 29
+Youth 4
+Kids 1"
+03:54PM	Fang Caryn 方芳	"Taipei
+Adult 50
+Youth 1
+Kids 4"
+
+Sun, 01/16/2022
+04:00PM	elya，8號11班建榮＆3年6班建信	"Ifgf taipei 55 adult
+Kids 4
+Youth 2"
+
+Sun, 01/23/2022
+10:59AM	Ps. Corwin Yehuda L	"IFGF Zhongli
+College: 17
+Adult: 5
+Kids: 1 
+Youth: 3"
+12:04PM	elya，8號11班建榮＆3年6班建信	"Total 25 adult
+Kids 1
+Youth 3
+Revisi ifgf zhongli"
+04:08PM	elya，8號11班建榮＆3年6班建信	"Ifgf taipei 
+Adult 47
+Kids 2
+Youth 1
+Zoom 13"
+
+Sun, 01/30/2022
+11:12AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 13
+College: 14
+Youth: 3
+Kids: 3"
+04:56PM	elya，8號11班建榮＆3年6班建信	"Taipei 
+Adult 46
+Kids 2
+Youth 1
+Zoom 11"
+
+
+Sun, 02/06/2022
+11:04AM	Ps. Corwin Yehuda L	"Zhongli
+Adult 11
+College 16
+Kids 1
+Youth 4"
+
+Sun, 02/13/2022
+12:23PM	Grace Weiz 小婷	"Zhongli
+Adult 7
+College 16
+Youth 4
+Kid 1"
+03:52PM	Ps. Corwin Yehuda L	"Taipei
+Online 12
+Adult 9
+College 37
+Kids 4 
+Youth 1"
+03:57PM	Michelle	"Taipei
+Online 14
+Adult 9
+College 37
+Kids 4 
+Youth 1"
+04:11PM	elya，8號11班建榮＆3年6班建信	"Taipei
+Online 16
+Adult 9
+College 38
+Kids 4 
+Youth 1"
+
+Sun, 02/20/2022
+11:55AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 7
+College: 17
+Youth: 4
+Kids 1"
+03:57PM	Ps. Corwin Yehuda L	"Taipei
+Adult: 12
+College: 40
+Youth: 1
+Kids: 4
+Zoom: 11"
+
+Sun, 02/27/2022
+10:56AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 9
+College: 19
+Youth: 4
+Kids: 1 "
+03:59PM	Michelle	"Taipei
+Adult 11
+College: 40
+Youth: 1
+Kids: 4
+Online : 9"
+03:59PM	Ps. Corwin Yehuda L	"Taipei
+Adult 11
+College: 41
+Youth: 1
+Kids: 4
+Online : 9"
+04:40PM	Michelle	"Taipei
+Adult 11
+College: 41
+Youth: 1
+Kids: 4
+Online : 10"
+
+Sun, 03/06/2022
+11:00AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 13
+College: 11
+Youth: 4
+Kids: 3"
+03:55PM	Ps. Corwin Yehuda L	"Taipei
+Adult: 7
+College: 50
+Youth: 0
+Kids: 2"
+03:55PM	Michelle	"Taipei
+Adult: 7
+College: 50
+Youth: 0
+Kids: 2
+Online : 9"
+04:07PM	elya，8號11班建榮＆3年6班建信	"Taipei
+Adult: 7
+College: 51
+Youth: 1
+Kids: 2
+Online : 10"
+
+Sun, 03/13/2022
+11:46AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 10
+College: 13
+Youth: 4
+Kids: 1"
+05:00PM	Michelle	"IFGF TAIPEI 13 Maret 2022
+
+Adult 9
+College 41
+Youth 1
+Kids 4 
+Online 11"
+
+Sun, 03/20/2022
+10:56AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 13
+College: 16
+Youth: 3
+Kids: 3"
+03:54PM	Ps. Corwin Yehuda L	"Taipei
+Adult: 6
+College: 30
+Youth: 2
+Kids: 2"
+04:20PM	Michelle	"IFGF TAIPEI 20 Maret 2022
+
+Adult : 7
+College : 28
+Youth : 2
+Kids : 2
+Online : 21"
+04:46PM	elya，8號11班建榮＆3年6班建信	"Taipei
+Adult: 6
+College: 30
+Youth: 2
+Kids: 2
+Online 21"
+
+Sun, 03/27/2022
+11:37AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 10
+College: 15
+Youth: 3
+Kids: 1"
+11:50AM	elya，8號11班建榮＆3年6班建信	"Zhongli
+Adult: 10
+College: 15
+Youth: 3+1
+Kids: 1"
+04:04PM	Michelle	"IFGF TAIPEI 27 Maret 2022
+Online : 8
+Adult : 12
+College : 35
+Youth : 1
+Kids : 4"
+
+Sun, 04/03/2022
+11:03AM	Ps. Corwin Yehuda L	"Zhongli
+Adult: 11
+College: 17
+Youth: 3
+Kids: 1"
+04:35PM	Michelle	"IFGF TAIPEI 03 APRIL 2022
+Online : 10
+Adult : 14
+College : 27
+Youth : 2
+Kids : 4"
+
+
+Sun, 04/10/2022
+12:06PM	Ps. Corwin Yehuda L	"Zhongli 10 Apr
+Adult: 11
+College: 14
+Youth: 3
+Kids: 1"
+04:05PM	Michelle	"IFGF Taipei 10 April 2022
+College 37
+Adult 8
+Youth 2
+Kids 2
+Online 6"
+
+Sun, 04/24/2022
+10:52AM	Ps. Corwin Yehuda L	"Zhongli 24 Apr
+Adult: 8
+College: 16
+Youth: 3
+Kids: 1"
+03:52PM	Ps. Corwin Yehuda L	"Taipei 24 Apr
+Adult: 10
+College: 26
+Youth: 1
+Kids: 4
+Zoom: 14"
+
+Sun, 05/01/2022
+11:06AM	Ps. Corwin Yehuda L	"Zhongli 1 Mei 2022
+Adult: 6
+College: 11
+Youth: 3
+Kids: 1"
+04:14PM	Michelle	"IFGF TAIPEI 1 MAY 2022
+College : 38
+Adult : 7
+Youth : 1
+Kids : 3
+Online : 12"
+04:19PM	Michelle	"IFGF TAIPEI 1 MAY 2022
+College : 38
+Adult : 7
+Youth : 1
+Kids : 3
+Online : 14"
+
+Sun, 05/08/2022
+11:36AM	Ps. Corwin Yehuda L	"Zhongli 8 May 2022
+Adult: 6
+College: 10
+Youth: 3
+Kids: 1"
+04:06PM	Michelle	"IFGF TAIPEI 8 MEI 2022
+
+Adult : 6
+College : 18
+Youth :1
+Kids : 2
+Online : 23"
+04:13PM	Michelle	"IFGF TAIPEI 8 MEI 2022
+
+Adult : 6
+College : 19
+Youth :1
+Kids : 2
+Online : 23"
+04:17PM	Michelle	"IFGF TAIPEI 8 MEI 2022
+
+Adult : 6
+College : 20
+Youth :1
+Kids : 2
+Online : 23"
+
+Sun, 05/15/2022
+11:54AM	Ps. Corwin Yehuda L	"Zhongli 15 May 2022
+Adult: 8
+College: 11
+Youth: 3
+Kids: 1"
+04:09PM	Michelle	"IFGF TAIPEI 15 MEI 2022
+
+Adult : 8
+College : 17
+Youth :1
+Kids : 2
+Online : 36"
+
+Sun, 05/22/2022
+10:58AM	Ps. Corwin Yehuda L	"Zhongli 22 May 2022
+Adult: 7
+College: 10
+Youth: 3 
+Kids: 1"
+04:01PM	Michelle	"IFGF TAIPEI 22 MEI 2022
+
+Adult: 3
+College: 24
+Youth: 1
+Kids: 2/3 
+Online : 23"
+04:38PM	Ps. Corwin Yehuda L	"IFGF TAIPEI 22 MEI 2022
+
+Adult: 4
+College: 24
+Youth: 1
+Kids: 2/3 
+Online : 23"
+04:41PM	Michelle	"IFGF TAIPEI 22 MEI 2022
+
+Adult: 4
+College: 24
+Youth: 1
+Kids: 2/3 
+Online : 24"
+
+Sun, 05/29/2022
+10:59AM	Ps. Corwin Yehuda L	"Zhongli 29 May 2022
+Adult: 8
+College : 10
+Youth: 3
+Kids: 2"
+04:07PM	Michelle	"IFGF TAIPEI 29 MEI 2022
+
+Adult : 6
+College : 30
+Youth : 1 
+Kids : 2
+Online : 21"
+
+Sun, 06/05/2022
+10:50AM	Ps. Corwin Yehuda L	"Zhongli 5 Juni 2022
+Adult: 8
+College: 11
+Youth: 3
+Kids:1"
+04:33PM	Michelle	"IFGF TAIPEI 5 June 2022
+
+Adult : 4
+College : 35
+Youth :1
+Kids : 1
+Online : 19"
+
+Sun, 06/12/2022
+11:52AM	Grace Weiz 小婷	"Zhongli:
+Adult: 8
+College: 11
+Youth: 2
+Kids: 1"
+04:11PM	Michelle	"IFGF TAIPEI 12 June 2022
+
+Adult : 10
+College : 26
+Youth :1
+Kids : 4
+Online : 16"
+
+Sun, 06/19/2022
+12:19PM	Ps. Corwin Yehuda L	"Zhongli 19 June 2022
+Adult: 12
+College: 16
+Youth: 3
+Kids: 3"
+04:10PM	Michelle	"IFGF TAIPEI 19 JUNI 2022
+Adult : 15
+College : 27
+Youth : 2
+Kids : 2 
+Online : 6"
+
+Sun, 06/26/2022
+10:51AM	Ps. Corwin Yehuda L	"Zhongli june 26 2022
+Adult: 4
+College: 11
+Youth: 2
+Kids: 0"
+04:25PM	Michelle	"IFGF TAIPEI 26 Juni 222
+
+Kids: 0
+College: 26
+Youth:0
+Adult:8
+Online : 10"
+
+Sun, 07/03/2022
+10:58AM	Michelle	"IFGF ZHONGLI 3 JULI 2022
+
+Adult : 12
+College : 13
+Youth : 2
+Kids : 2"
+03:54PM	Michelle	"IFGF TAIPEI 3 JULI 2022
+
+Adult : 8
+College : 18
+Youth : 0
+Kids : 0
+Online : 10"
+
+Sun, 07/10/2022
+10:53AM	Michelle	"IFGF ZHONGLI 10 JULI 2022
+
+Adult : 10
+College : 20
+Youth : 3
+Kids : 1"
+03:58PM	Michelle	"IFGF TAIPEI 10 JULI 2022
+
+Adult 9
+College 23
+Youth 1
+kids 2
+Online 8"
+
+Sun, 07/17/2022
+10:54AM	Michelle	"IFGF ZHONGLI 17 JULI 2022
+
+Adult : 13
+College : 11
+Youth : 2
+Kids : 3"
+03:56PM	Michelle	"IFGF TAIPEI 17 JULI 2022
+
+Adult 6
+College 25
+Youth 1
+kids 2
+Online 10"
+
+Sun, 07/24/2022
+11:55AM	elya，8號11班建榮＆3年6班建信	"Total 25 (college 16 dan adult 9 )
+Youth 2 org, kids 1 org
+Ifgf zhongli"
+04:05PM	Michelle	"IFGF TAIPEI 24 JULI 2022
+
+Adult : 6
+College : 31
+Youth :1
+Kids :2
+Online : 5"
+
+Sun, 07/31/2022
+10:49AM	Michelle	"IFGF ZHONGLI 31 Juli 2022
+
+Adult : 17
+College : 7
+Youth : 3
+Kids : 3"
+03:54PM	Michelle	"IFGF TAIPEI 31 JULI 2022
+
+Adult : 9
+College : 25
+Youth : 1
+Kids : 2
+Online : 7"
+
+Sun, 08/07/2022
+10:47AM	Michelle	"IFGF ZHONGLI 7 Agustus 2022
+
+Adult : 8
+College : 10
+Youth : 2
+Kids : 2"
+04:27PM	Michelle	"IFGF TAIPEI 7 AGUSTUS 2022
+
+Adult : 16
+College : 22
+Youth : 1
+Kids : 4
+Online : 5"
+
+Sun, 08/14/2022
+10:49AM	Michelle	"IFGF ZHONGLI 14 AGUSTUS 2022
+
+Adult : 8
+College : 9
+Youth : 2
+Kids : 1"
+03:57PM	Michelle	"IFGF TAIPEI 14 AGUSTUS 2022
+
+Adult : 6
+College : 21
+Youth : 1
+Kids : 2
+Online : 11"
+
+Sun, 08/21/2022
+03:58PM	Michelle	"IFGF TAIPEI 21 AGUSTUS 2022
+
+Adult : 12
+College : 19
+Youth : 1
+Kids : 2
+Online : 10"
+
+Sun, 08/28/2022
+10:48AM	Michelle	"IFGF ZHONGLI 28 AGUSTUS 2022
+
+Adult 14
+College 5
+Youth 2
+Kids 3"
+04:12PM	Michelle	"IFGF TAIPEI 28 AGUSTUS 2022
+
+Adult : 9
+College :25
+Youth : 1
+Kids : 2
+Online : 12"
+
+
+Sun, 09/04/2022
+03:50PM	Michelle	"IFGF TAIPEI 4 SEPTEMBER 2022
+
+Adult : 13
+College : 18
+Youth : 1
+Kids : 4
+Online : 7"
+
+Sun, 09/11/2022
+10:49AM	Michelle	"IFGF ZHONGLI 11 September 2022
+
+Adult : 9
+College : 11
+Youth : 2
+Kids : 1"
+03:53PM	Michelle	"IFGF TAIPEI 11 SEPTEMBER 2022
+
+Adult : 10
+College : 26
+Youth : 1
+Kids : 4
+Online : 9"
+
+Sun, 09/18/2022
+11:45AM	elya，8號11班建榮＆3年6班建信	"IFGF ZHONGLI 18 SEPTEMBER 2022
+
+Adult : 9
+College : 13
+Youth : 2
+Kid : 1"
+04:07PM	Michelle	"IFGF TAIPEI 18 SEPTEMBER 2022
+
+Adult 14
+College 29
+Youth 1
+Kids 3
+Online : 6"
+
+Sun, 09/25/2022
+10:47AM	Michelle	"IFGF ZHONGLI 25 SEP 2022
+Adult 6
+College 10
+Youth 2
+Kid 1"
+04:06PM	Michelle	"IFGF TAIPEI 25 SEPTEMBER 2022
+
+Adult 14
+College 30
+Youth 1
+Kids 4
+Online 11"
+
+Sun, 10/02/2022
+11:02AM	Ps. Corwin Yehuda L	"Zhongli 2 October 2022
+Adult 9
+College 19
+Youth 3
+Kid 2"
+04:01PM	Michelle	"IFGF TAIPEI 2 OKTOBER 2022
+
+Adult 15
+College 60
+Youth 1
+Kids 4
+Online 7"
+
+Sun, 10/09/2022
+11:47AM	Ps. Corwin Yehuda L	"Zhongli 9 Oct 2022
+Adult: 8
+College: 15
+Youth: 3
+Kids: 1"
+04:13PM	Michelle	"IFGF TAIPEI 9 OKTOBER 2022
+
+Adult : 11
+College : 41
+Youth : 3
+Kids : 4
+Online : 6"
+
+Sun, 10/16/2022
+12:15PM	Ps. Corwin Yehuda L	"Zhongli 16 Oct 2022
+Adult: 13
+College: 7
+Youth: 2
+Kids: 3"
+04:08PM	Michelle	"IFGF TAIPEI 16 OKTOBER 2022
+
+Adult : 8
+College : 32
+Youth : 5
+Kids : 3 
+Online : 8 "
+
+Sun, 10/23/2022
+10:56AM	Michelle	"IFGF ZHONGLI 23 OKTOBER 2022
+
+Adult 9
+College 8
+Youth 2
+Kid 1"
+03:59PM	Michelle	"IFGF TAIPEI 23 OKTOBER 2022
+
+Adult 18
+College 50
+Youth 3
+Kids 4
+Online 6"
+04:43PM	Janice 0958338868	"IFGF TAIPEI 23 OKTOBER 2022
+
+Adult 18
+College 50
+Youth 3
+Kids 4
+Online 7"
+
+Sun, 10/30/2022
+10:45AM	Michelle	"IFGF ZHONGLI 30 OKT 2022
+Adult 9
+College 10
+Youth 2
+Kids 1"
+03:57PM	Michelle	"IFGF TAIPEI 30 OKTOBER 2022
+
+Adult 17
+College 44
+Youth 7
+Kids 4
+Online 5"
+
+Sun, 11/06/2022
+11:06AM	Ps. Corwin Yehuda L	"Zhongli 6 Nov 2022
+Adult: 12
+College: 15
+Youth: 3
+Kids: 1"
+04:38PM	Michelle	"IFGF TAIPEI 6 NOVEMBER 2022
+Adult 15
+College 54
+Youth 2
+Kids 6
+Online 9"
+
+Sun, 11/13/2022
+10:51AM	Michelle	"IFGF ZHONGLI 13 NOV 2022
+
+Adult 8
+College 10
+Youth 1
+Kids 1"
+04:19PM	Michelle	"IFGF TAIPEI 13 NOVEMBER 2022
+Adult 10
+College 39
+Youth 3
+Kids 5
+Online 11"
+
+Sun, 11/20/2022
+11:07AM	Michelle	"IFGF ZHONGLI 20 NOVEMBER 2022
+
+Adult 9
+College 9
+Youth 2
+Kids 1"
+04:24PM	Michelle	"IFGF TAIPEI 20 NOVEMBER 2022
+Adult 13
+College 42
+Youth 3
+Kids 3
+Online 9 "
+
+Sun, 11/27/2022
+10:51AM	Michelle	"IFGF ZHONGLI 27 NOVEMBER 2022
+
+Adult 11
+College 7
+Youth 1
+Kids 1"
+05:01PM	Michelle	"IFGF TAIPEI 27 NOVEMBER 2022
+Adult 16
+College 36
+Youth 5
+Kids 5
+Online 11"
+
+Sun, 12/04/2022
+11:00AM	Michelle	"IFGF ZHONGLI 4 DESEMBER 2022
+
+Adult 13
+College 9
+Youth 1
+Kids 4"
+04:21PM	Michelle	"IFGF TAIPEI 4 DESEMBER 2022
+Adult 11
+College 37
+Youth 5
+Kids 2
+Online  6"
+
+Sun, 12/18/2022
+10:52AM	Michelle	"IFGF ZHONGLI 18 DESEMBER 2022
+
+Adult 11
+College 13
+Youth 2
+Kids 1"
+04:20PM	Michelle	"IFGF TAIPEI 18 DESEMBER 2022
+Adult 7
+College 32
+Youth 4
+Kids 5
+Online  7"
+
+Sun, 01/01/2023
+04:57PM	Michelle	"IFGF TAIPEI 1 JANUARI 2022
+Adult 19
+College 40
+Youth 5
+Kids 3
+Online 6"
+
+Sun, 01/08/2023
+04:56PM	Michelle	"IFGF TAIPEI 8 JANUARI 2023
+
+Adult 16
+College 37
+Youth 3
+Kids 6
+Online 4"
+
+Sun, 01/15/2023
+10:44AM	Michelle	"IFGF ZHONGLI 15 Januari 2023
+
+Adult 10
+College 12
+Youth 1
+Kid 1"
+04:18PM	Michelle	"IFGF TAIPEI 15 Januari 2023
+
+Adult 14
+College 27
+Youth 4
+Kids 4
+Online 4"
+
+Sun, 01/22/2023
+04:08PM	Michelle	"IFGF TAIPEI 22 JANUARI 2023
+
+Adult 19
+College 23
+Youth 3
+Kids 2
+Online 5"
+
+
+Sun, 01/29/2023
+10:53AM	Michelle	"IFGF ZHONGLI 29 Januari 2023
+
+Adult 11
+College 7
+Youth 1
+Kids 0"
+04:17PM	Ps. Corwin Yehuda L	"IFGF Taipei 29 Jan
+Adult: 12
+College: 26
+Youth: 0
+Kids: 3"
+
+Sun, 02/05/2023
+10:51AM	Michelle	"IFGF ZHONGLI 5 Februari 2023
+
+Adult 13
+College 10
+Youth 1
+Kids 0"
+04:20PM	Michelle	"IFGF TAIPEI 5 FEBUARI 2023
+
+Adult 14
+College 24
+Youth 3
+Kids 5
+Online 7"
+
+Sun, 02/12/2023
+04:02PM	Michelle	"IFGF TAIPEI 12 FEBRUARI 2023
+
+Adult 11
+College 25
+Youth 2
+Kids 3
+Online 7"
+
+Sun, 02/19/2023
+10:52AM	Michelle	"IFGF ZHONGLI 19 Februari 2022
+
+Adult 12
+College 14
+Youth 2
+Kids 1 "
+04:41PM	Ps. Corwin Yehuda L	"IFGF TAIPEI 19 Februari
+Adult 18
+College 28
+Youth 5
+Kids 5
+Online 5"
+
+Sun, 02/26/2023
+10:45AM	Michelle	"IFGF ZHONGLI 26 FEBRUARI 2023
+
+Adult 12
+College 15
+Youth 2
+Kids 1"
+04:50PM	Michelle	"IFGF TAIPEI 26 FEBRUARI 2023
+
+Adult 11
+College 34
+Youth 7
+Kids 5
+Online 2"
+
+Sun, 03/05/2023
+10:51AM	Michelle	"IFGF ZHONGLI 5 MARET 2023
+
+Adult 14
+College 11
+Youth 2
+Kids 3"
+03:59PM	Michelle	"IFGF TAIPEI 5 MARET 2023
+
+Adult 21
+College 30
+Youth 3
+Kids 4
+Online 6"
+
+Sun, 03/12/2023
+10:50AM	Michelle	"IFGF ZHONGLI 12 MARET 2023
+
+Adult 11
+College 12
+Youth 2
+Kids 1"
+04:03PM	Michelle	"IFGF TAIPEI 12 MARET 2023
+
+Adult 20
+College 33
+Youth 6
+Kids 4
+Online 4"
+
+Sun, 03/19/2023
+10:51AM	Michelle	"IFGF ZHONGLI 19 Maret 2023
+
+Adult 13
+College 14
+Youth 3
+Kids 1"
+04:03PM	Michelle	"IFGF TAIPEI 19 Maret 2023
+
+Adult 13
+College 42
+Youth 6
+Kids 5
+Online 4"
+
+Sun, 03/26/2023
+11:01AM	Ps. Corwin Yehuda L	"Zhongli 26 Maret 2023
+Adult: 16
+College: 10
+Youth: 2
+Kids: 1"
+04:00PM	Michelle	"IFGF TAIPEI 26 MARET 2023
+
+Adult 35
+College 15
+Youth 5
+Kids 6
+Online 7"
+
+Sun, 04/02/2023
+10:49AM	Michelle	"IFGF ZHONGLI 2 APRIL 2023
+
+Adult 13
+College 12
+Youth 3
+Kids 1"
+04:12PM	Michelle	"IFGF TAIPEI 2 April 2023
+
+Adult 22
+College 20
+Youth 6
+Kids 3
+Online 5"
+
+Sun, 04/16/2023
+10:56AM	Michelle	"IFGF ZHONGLI 16 APRIL 2023
+
+Adult 12
+College 17
+Youth 2
+Kids 1"
+03:54PM	Michelle	"IFGF TAIPEI 16 APRIL 2023
+
+Adult 22
+College 21
+Youth 5
+Kids 3
+Online 4"
+
+Sun, 04/23/2023
+10:55AM	Ps. Corwin Yehuda L	"Zhongli 23 April 2023
+Adult: 12
+College: 12
+Youth: 2
+Kids: 1"
+04:06PM	Michelle	"IFGF TAIPEI 23 APRIL 2023
+
+Adult 18
+College 24
+Youth 4
+Kids 5
+Online 6"
+
+Sun, 04/30/2023
+10:52AM	Michelle	"IFGF ZHONGLI 30 April 2023
+
+Adult 13
+College 14
+Youth 1
+Kids 1"
+04:25PM	Michelle	"IFGF TAIPEI 30 April 2023
+Adult 24
+College 26
+Youth 3
+Kids 4
+Online 6"
+
+
+Sun, 05/07/2023
+10:48AM	Michelle	"IFGF ZHONGLI 7 Mei 2023
+
+Adult 17
+College 19
+Youth 1
+Kids 3"
+04:04PM	Michelle	"IFGF TAIPEI 7 Mei 2023
+
+Adult 21
+College 15
+Youth 6
+Kids 2
+Online 8"
+
+Sun, 05/14/2023
+10:53AM	Michelle	"IFGF ZHONGLI 14 MEI 2023
+
+Adult 13
+College 19
+Youth 1
+Kids 1"
+04:02PM	Michelle	"IFGF TAIPEI 14 MEI 2023
+
+Adult 21
+College 29
+Youth 1
+Kids 3
+Online 8"
+
+Sun, 05/28/2023
+10:50AM	Ps. Corwin Yehuda L	"Zhongli 28 May 2023
+Adult : 15
+College : 24
+Youth : 2
+Kids: 1"
+03:58PM	Michelle	"IFGF TAIPEI 28 MEI 2023
+
+Adult 21
+College 22
+Youth 1
+Kids 3
+Online 6"
+
+
+Sun, 06/04/2023
+10:47AM	Michelle	"IFGF ZHONGLI 4 JUNI 2023
+
+Adult 17
+College 15
+Youth 2
+Kids 1"
+03:51PM	Michelle	"IFGF TAIPEI 4 JUNI 2023
+
+Adult 18
+College 20
+Youth 1
+Kids 1
+Online 6"
+
+Sun, 06/11/2023
+10:49AM	Michelle	"IFGF ZHONGLI 11 Juni 2023
+
+Adult 17
+College 14
+Youth 2
+Kids 1"
+04:07PM	Michelle	"IFGF TAIPEI 11 Juni 2023
+
+Adult 22
+College 14
+Youth 3
+Kids 3
+Online 6"
+
+Sun, 06/18/2023
+10:51AM	Michelle	"IFGF ZHONGLI 18 JUNI 2023
+
+Adult 13
+College 16
+Youth 2
+Kids 1"
+05:55PM	Michelle	"IFGF TAIPEI 18 JUNI 2023
+
+Adult 25
+College 18
+Youth 5
+Kids 4
+Online 7"
+
+Sun, 06/25/2023
+10:50AM	Michelle	"IFGF ZHONGLI 25 JUNI 2023
+
+Adult 17
+College 6 
+Youth 4
+Kids 1"
+04:07PM	Michelle	"IFGF TAIPEI 25 JUNI 2023
+
+Adult 19
+College 22
+Youth 1
+Kids 4
+Online 7"
+
+
+Sun, 07/02/2023
+10:48AM	Michelle	"IFGF ZHONGLI 2 JULI 2023
+
+Adult 21
+College 14
+Youth 1
+Kids 1"
+04:08PM	Michelle	"IFGF TAIPEI 2 JULI 2023
+
+Adult 22
+College 17
+Youth 3
+Kids 6
+Online 7"
+
+Sun, 07/09/2023
+04:41PM	Michelle	"IFGF TAIPEI 9 JULI 2023
+
+Adult 30
+College 27
+Youth 2
+Kids 5
+Online 10"
+11:46PM	elya，8號11班建榮＆3年6班建信	"Ifgf zhongli.38 adult
+5 kids
+2 youth"
+
+
+Sun, 07/16/2023
+12:14PM	Ps. Corwin Yehuda L	"Supersunday Zhongli 16 Maret 2023
+Adult: 17
+College: 8
+Youth: 2
+Kids: 1"
+04:02PM	Michelle	"IFGF TAIPEI 16 JULI 2023
+
+Adult 14
+College 18
+Youth 2
+Kids 3
+Online 8"
+
+Sun, 07/23/2023
+10:45AM	Michelle	"IFGF ZHONGLI 23 JULI 2023
+
+Adult 20
+College 5
+Youth 1
+Kids 1
+Online "
+03:52PM	Michelle	"IFGF TAIPEI 23 JULI 2023
+
+Adult 19
+College 22
+Youth 2
+Kids 3
+Online 7"
+
+Sun, 07/30/2023
+10:52AM	Michelle	"IFGF ZHONGLI 30 JULI 2023
+
+Adult 17
+College 11
+Youth 1
+Kids 2"
+04:10PM	Michelle	"IFGF TAIPEI 30 JULI 2023
+
+Adult 15 
+College 8
+Youth 2
+Kids 3
+Online 13"
+
+Sun, 08/06/2023
+04:03PM	Michelle	"IFGF TAIPEI 6 Agustus 2023
+
+Adult 21
+College 11
+Youth 2
+Kids 3
+Online 3"
+
+Sun, 08/13/2023
+10:56AM	Michelle	"IFGF ZHONGLI 13 Agustus 2023
+
+Adult 15
+College 10
+Youth 2
+Kids 1"
+04:00PM	Michelle	"IFGF TAIPEI 13 Agustus 2023
+
+Adult 11
+College 13
+Youth 1
+Kids 4
+Online 7"
+
+Sun, 08/27/2023
+10:59AM	Michelle	"IFGF ZHONGLI 27 Agustus 2023
+
+Adult 20
+College 7
+Youth 2
+Kids 3"
+03:54PM	Michelle	"IFGF TAIPEI 27 Agustus 2023
+
+Adult 28
+College 24
+Youth 2
+Kids 4
+Online 7"
+
+Sun, 09/03/2023
+10:47AM	Michelle	"IFGF ZHONGLI 3 SEPTEMBER 2023
+
+Adult 22
+College 25
+Youth 2
+Kids 1"
+03:57PM	Michelle	"IFGF TAIPEI 3 SEPTEMBER 2023
+
+Adult 22
+College 11
+Youth 10
+Kids 4
+Online 7"
+
+Sun, 09/10/2023
+10:54AM	Elviz 又飛	"IFGF ZHONGLI 10 september 2023
+
+Adult 18
+College 26
+Youth 2
+Kids 1"
+04:15PM	Michelle	"IFGF TAIPEI 10 SEPTEMBER 2023
+
+Adult 21
+College 19
+Youth 7
+Kids 3
+Online 9"
+
+Sun, 09/17/2023
+11:04AM	Ps. Corwin Yehuda L	"Zhongli 17 Sept 2023
+Adult: 21
+College: 23
+Youth: 2
+Kids: 1"
+03:57PM	Ps. Corwin Yehuda L	"Taipei 17 Sept 2023
+Adult: 30
+College:15
+Youth: 8
+Kids: 5"
+
+Sun, 09/24/2023
+11:05AM	Michelle	"IFGF ZHONGLI 24 SEPTEMBER 2023
+
+Adult 18
+College 14
+Youth 15
+Kids 1"
+02:30PM	elya，8號11班建榮＆3年6班建信	Wow...total 47 org zhongli rekor ta
+03:34PM	elya，8號11班建榮＆3年6班建信	Full rekor taipei 80 total
+04:00PM	Michelle	" IFGF TAIPEI 24 SEPTEMBER 2023
+
+Adult 17
+College 58
+Youth 9
+Kids 3
+Online 6
+
+Total 84"
+
+Sun, 10/01/2023
+10:59AM	Michelle	"IFGF ZHONGLI 1 OCTOBER 2023
+
+Adult 20
+College 18
+Youth 9
+Kids 1"
+03:50PM	Michelle	" IFGF TAIPEI 1 OKTOBER 2023
+
+Adult 15
+College 27
+Youth 7
+Kids 6
+Online 6
+
+Total 50"
+
+Sun, 10/08/2023
+04:27PM	Michelle	"IFGF ZHONGLI 8 OCTOBER 2023
+
+Adult 15
+College 13
+Youth 7
+Kids 1"
+04:28PM	Michelle	"IFGF TAIPEI 8 OCTOBER 2023
+
+Total 79
+Kids 3
+Online 6"
+
+Sun, 10/15/2023
+11:07AM	Michelle	"IFGF ZHONGLI 15 OCTOBER 2023
+
+Adult 15
+College 16
+Youth 9
+Kids 1"
+03:59PM	Michelle	"IFGF TAIPEI 15 OCTOBER 2023
+
+Adult 20
+YC 45
+Kids 3
+Online 6"
+
+Sun, 10/22/2023
+11:05AM	Michelle	"IFGF ZHONGLI 22 OCTOBER 2023
+
+Adult 16
+YC 25
+Kids 1"
+04:24PM	Michelle	"IFGF TAIPEI 22 OCTOBER 2023
+
+Adult 11
+YC 49
+Kids 4
+Online 6"
+
+Sun, 10/29/2023
+10:54AM	Michelle	"IFGF ZHONGLI 29 OCTOBER 2023
+
+Adult 16
+YC 23
+Kids 2"
+03:51PM	Michelle	"IFGF TAIPEI 29 OCTOBER 2023
+
+Adult 21
+YC 39
+Kids 4
+Online 6"
+
+Sun, 11/05/2023
+10:51AM	Michelle	"IFGF ZHONGLI 5 NOVEMBER 2023
+
+Adult 17
+YC 16
+Kids 1"
+03:55PM	Michelle	"IFGF TAIPEI 5 NOVEMBER 2023
+
+Adult 15
+YC 45
+Kids 6
+Online 7"
+
+Sun, 11/12/2023
+11:00AM	Michelle	"IFGF ZHONGLI  12 NOVEMBER 2023
+
+Adult 13
+YC 21
+Kids 1"
+04:20PM	Michelle	"IFGF TAIPEI 12 NOVEMBER 2023
+
+Adult 16
+YC 35
+Kids 4
+Online 9"
+
+Sun, 11/19/2023
+10:58AM	Michelle	"IFGF ZHONGLI  19 NOVEMBER 2023
+
+Adult 15
+YC 20
+Kids 1"
+04:01PM	Michelle	"IFGF TAIPEI 19 NOVEMBER 2023
+
+Adult 18
+YC 31
+Kids 4
+Online 7"
+
+Sun, 11/26/2023
+10:46AM	Michelle	"IFGF ZHONGLI  26 NOVEMBER 2023
+
+Adult 12
+YC 23
+Kids 1"
+03:53PM	Michelle	"IFGF TAIPEI 26 NOVEMBER 2023
+
+Adult 22
+YC 32
+Kids 3
+Online 9"
+
+Sun, 12/03/2023
+11:23AM	elya，8號11班建榮＆3年6班建信	"Zhongli IFGF
+Adult 38 org
+Kids 1 org"
+04:21PM	Michelle	"IFGF TAIPEI 3 DESEMBER 2023
+
+Adult 16
+YC 37
+Kids 3
+Online 5"
+
+Sun, 12/17/2023
+04:08PM	Michelle	"IFGF ZHONGLI  17 Desember  2023
+
+Adult 15
+YC 22
+Kids 1"
+04:08PM	Michelle	"IFGF TAIPEI 17 DESEMBER 2023
+
+Adult 22
+YC 42
+Kids 3 
+Online 4"
+
+Sun, 12/31/2023
+02:12PM	Michelle	"IFGF TAIPEI 31 DESEMBER 2023
+
+Total 82
+Online 6"
+
+Sun, 01/07/2024
+04:02PM	elya，8號11班建榮＆3年6班建信	"Taipei
+Adult 55 org
+Online 4 org
+Anak 4 org"
+
+Sun, 01/14/2024
+12:35PM	Michelle	"IFGF ZHONGLI  14 JAN 2024
+
+Adult 14
+YC 14
+Kids 1"
+04:09PM	elya，8號11班建榮＆3年6班建信	"IFGF TAIPEI  14 JAN 2024
+
+Adult 17
+YC 30
+Kids 4
+Online 8"
+
+Sun, 01/21/2024
+11:18AM	Michelle	"IFGF ZHONGLI  21 JAN 2024
+
+Adult 21
+YC 15
+Kids 1"
+04:30PM	Michelle	"IFGF TAIPEI  21 JAN 2024
+
+Adult 24
+YC 31
+Kids 6
+Online 5"
+
+Sun, 01/28/2024
+10:53AM	Michelle	"IFGF ZHONGLI  28 JAN 2024
+
+Adult 23
+YC 15
+Kids 1"
+04:13PM	Michelle	"IFGF TAIPEI  28 JAN 2024
+
+Adult 17
+YC 20
+Kids 4
+Online 8"
+
+Sun, 02/04/2024
+11:55AM	elya，8號11班建榮＆3年6班建信	"Ifgf zhongli
+Adult 35 org
+Child 3 org"
+04:14PM	Michelle	"IFGF TAIPEI  4 FEBRUARI 2024
+
+Adult 16
+YC 30
+Kids 3
+Online 4"
+
+Sun, 02/11/2024
+10:55AM	Andy（曾金龍）	"IFGF ZHONGLI 11 FEB 2024
+
+Adult 14
+YC 15
+Kids 1"
+04:20PM	Michelle	"IFGF TAIPEI 11 FEBRUARI 2024
+
+Adult 19
+YC 30
+Kids 4
+Online 4"
+
+
+Sun, 02/18/2024
+12:14PM	Michelle	"IFGF ZHONGLI 18 FEB 2024
+
+Adult 17
+YC 20
+Kids 1"
+05:43PM	Michelle	"IFGF TAIPEI 18 FEBRUARI 2024
+
+Adult 17
+YC 37
+Kids 3
+Online 13"
+
+Sun, 02/25/2024
+12:03PM	Michelle	"IFGF ZHONGLI 25 FEB 2024
+
+Adult 14
+YC 15
+Kids 1"
+04:38PM	Michelle	"IFGF TAIPEI 25 FEBRUARI 2024
+
+Adult 13
+YC 48
+Kids 4
+Online 9"
+
+Sun, 03/03/2024
+10:48AM	Michelle	"IFGF ZHONGLI 3 Maret 2024
+
+Adult 7
+YC 31
+Kids 1"
+04:38PM	Michelle	"IFGF TAIPEI 3 MARET 2024
+
+Adult 22
+YC 30
+Kids 3
+Online 8"
+
+Sun, 03/10/2024
+11:48AM	Michelle	"IFGF ZHONGLI 10 MAR 2024
+
+Adult 18
+YC 18
+Kids 1"
+04:09PM	Michelle	"IFGF TAIPEI 10 MARET 2024
+
+Adult 22
+YC 27
+Kids 4
+Online 7"
+
+Sun, 03/17/2024
+10:45AM	Andy（曾金龍）	"IFGF ZHONGLI 17 MAR 2024
+
+Adult 16
+YC 20
+Kids 1"
+11:53AM	Michelle	"IFGF ZHONGLI 17 MAR 2024
+
+Adult 18
+YC 20
+Kids 1"
+04:26PM	Michelle	"IFGF TAIPEI 17 MARET 2024
+
+Adult 21
+YC 39
+Kids 3
+Online 4"
+
+Sun, 03/24/2024
+12:26PM	Michelle	"IFGF ZHONGLI 24 MAR 2024
+
+Adult 18
+YC 23
+Kids 1"
+03:58PM	Michelle	"IFGF TAIPEI 24 MARET 2024
+
+Adult 18
+YC 45
+Kids 4
+Online 6"
+
+
+Sun, 04/07/2024
+10:50AM	Michelle	"IFGF ZHONGLI 7 APRIL 2024
+
+Adult 14
+YC 22
+Kids 1"
+03:57PM	Michelle	"IFGF TAIPEI 7 APRIL 2024
+
+Total 85
+Kids 3"
+
+Sun, 04/14/2024
+04:13PM	Michelle	"IFGF TAIPEI 14 April 2024
+
+Adult 18
+YC 36
+Kids 6
+Online 6"
+
+Sun, 04/21/2024
+11:45AM	Michelle	"IFGF ZHONGLI 21 APRIL 2024
+
+Adult 17
+YC 18
+Kids 1"
+04:03PM	Michelle	"IFGF TAIPEI 21 April 2024
+
+Adult 16
+YC 42
+Kids 3
+Online 4"
+
+Sun, 04/28/2024
+10:44AM	Michelle	"IFGF ZHONGLI 28 APRIL 2024
+
+Adult 13
+YC 25
+Kids 1"
+04:05PM	Michelle	"IFGF TAIPEI 28 April 2024
+
+Adult 16
+YC 44
+Kids 4
+Online 4"
+
+Sun, 05/05/2024
+10:52AM	Andy（曾金龍）	"IFGF ZHONGLI 5 MEI 2024
+
+Adult 11
+YC 24
+Kids 1"
+11:07AM	Michelle	"IFGF ZHONGLI 5 MEI 2024
+
+Adult 15
+YC 24
+Kids 1"
+04:16PM	Michelle	"IFGF TAIPEI 5 MEI 2024
+
+Adult 24
+YC 44
+Kids 4
+Online 2"
+
+Sun, 05/12/2024
+11:03AM	Michelle	"IFGF ZHONGLI 12 MEI 2024
+
+Adult 15
+YC 19
+Kids 1"
+05:09PM	Michelle	"IFGF TAIPEI 12 MEI 2024
+
+Adult 16
+YC 43
+Kids 5
+Online 4"
+
+Sun, 05/19/2024
+11:23AM	Michelle	"IFGF ZHONGLI 19 MEI 2024
+
+Adult 15
+YC 15
+Kids 1"
+04:31PM	Michelle	" IFGF TAIPEI 19 MEI 2024
+
+Adult 21
+YC 34
+Kids 5
+Online 6"
+
+Sun, 05/26/2024
+10:55AM	Andy（曾金龍）	"IFGF ZHONGLI 26 MEI 2024
+
+Adult 17
+YC 16
+Kids 2"
+04:03PM	Michelle	" IFGF TAIPEI 26 MEI 2024
+
+Adult 30
+YC 27
+Kids 3
+Online 9"
+
+Sun, 06/02/2024
+11:00AM	Michelle	"IFGF ZHONGLI 2 JUNI 2024
+
+Adult 17
+YC  16
+Kids 0 "
+04:16PM	Michelle	"IFGF TAIPEI 2 JUNI 2024
+
+Adult 31
+YC 33
+Kids 5
+Online 4"
+
+Sun, 06/16/2024
+10:45AM	Michelle	"IFGF ZHONGLI 16 JUNI 2024
+
+Adult 15
+YC  21
+Kids 0"
+04:03PM	Michelle	"IFGF TAIPEI 16 JUNI 2024
+
+Adult 29
+YC 22
+Kids 5
+Online 4"
+
+Sun, 06/23/2024
+10:45AM	Michelle	"IFGF ZHONGLI 23 JUNI 2024
+
+Adult 17
+YC  21
+Kids 1"
+06:54PM	Michelle	"IFGF TAIPEI 23 JUNI 2024
+
+Adult 26
+YC 22
+Kids 6
+Online 7"
+
+Sun, 06/30/2024
+10:46AM	Andy（曾金龍）	"IFGF ZHONGLI 30 JUNI 2024
+
+Adult 16
+YC  19
+Kids 2"
+04:00PM	Michelle	"IFGF TAIPEI 30 JUNI 2024
+
+Adult 22
+YC 38
+Kids 4
+Online 6"
+
+Sun, 07/07/2024
+11:16AM	Michelle	"IFGF ZHONGLI 7 JULI 2024
+
+Adult : 24
+College : 13
+TY : 4
+Kids : 1"
+04:19PM	Michelle	"IFGF TAIPEI 7 JULI 2024
+
+Adult :29
+College : 27
+TY : 1
+Kids : 3
+Online : 3 (All Adult)"
+
+Sun, 07/14/2024
+10:53AM	Michelle	"IFGF ZHONGLI 14 JULI 2024
+
+Adult : 23
+College : 16
+TY : 6
+Kids : 1"
+04:09PM	Michelle	"IFGF TAIPEI 14 JULI 2024
+
+Adult :  36
+College : 46
+TY : 1
+Kids :3
+Online : 5 (All Adult)"
+
+Sun, 07/21/2024
+04:42PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 21 JULI 2024
+
+Adult : 20
+College : 10
+TY : 3
+Kids : 1"
+04:44PM	Stephen Lee (李威明)	"IFGF TAIPEI 21 JULI 2024
+
+Adult :  26
+College : 39
+TY : 1
+Kids : 3
+Online : 7(adult)"
+05:53PM	Michelle	"IFGF ZHONGLI 21 JULI 2024
+
+Adult : 20
+College : 10
+TY : 3
+Kids : 1
+
+IFGF TAIPEI 21 JULI 2024
+
+Adult :  26
+College : 39
+TY : 1
+Kids : 3
+Online : 7(adult)"
+
+Sun, 07/28/2024
+10:51AM	Michelle	"IFGF ZHONGLI 28 JULI 2024
+
+Adult : 15
+College : 14
+TY : 4
+Kids : 0"
+03:56PM	Michelle	"IFGF ZHONGLI 28 JULI 2024
+
+Adult : 15
+College : 14
+TY : 4
+Kids : 0
+
+IFGF TAIPEI 28 JULI 2024
+
+Adult :  20
+College : 33
+TY : -
+Kids : 4
+Online : 5"
+
+Sun, 08/04/2024
+10:46AM	Michelle	"IFGF ZHONGLI 4 AGUSTUS 2024
+
+Adult : 18
+College : 14
+TY : 7
+Kids : 0"
+03:59PM	Michelle	"IFGF ZHONGLI 4 AGUSTUS 2024
+Adult : 18
+College : 14
+TY : 7
+Kids : -
+
+IFGF TAIPEI 4 AGUSTUS 2024
+Adult :  26
+College : 28
+TY : -
+Kids : 4
+Online : 4"
+
+Sun, 08/11/2024
+10:47AM	Andy（曾金龍）	"IFGF ZHONGLI 11 AGUSTUS 2024
+
+Adult : 21
+College : 8
+TY : 6
+Kids : 1"
+04:04PM	Michelle	"IFGF ZHONGLI 11 AGUSTUS 2024
+Adult : 21
+College : 8
+TY : 6
+Kids : 1
+
+IFGF TAIPEI 11 AGUSTUS 2024
+Adult : 12
+College : 32
+TY : -
+Kids : 6
+Online : 7"
+
+Sun, 08/18/2024
+10:48AM	Michelle	"IFGF ZHONGLI 18 AGUSTUS 2024
+
+Adult : 19
+College : 14
+TY : 4
+Kids : 1"
+04:16PM	Michelle	"IFGF ZHONGLI 18 AGUSTUS 2024
+
+Adult : 19
+College : 14
+TY : 4
+Kids : 1
+
+IFGF TAIPEI 18 AGUSTUS 2024
+
+Adult : 16
+College : 33
+TY : 1
+Kids : 6
+Online : 3"
+
+Sun, 08/25/2024
+11:07AM	Michelle	"IFGF ZHONGLI 25 AGUSTUS 2024
+
+Adult : 22
+College :  13
+TY : 16
+Kids :  0"
+03:58PM	Michelle	"IFGF ZHONGLI 25 AGUSTUS 2024
+
+Adult : 22
+College :  13
+TY : 16
+Kids :  0
+
+IFGF TAIPEI 25 AGUSTUS 2024
+
+Adult : 37
+College : 26
+TY : 10
+Kids : 5
+Online : 7"
+
+Sun, 09/01/2024
+01:18PM	Michelle	"IFGF ZHONGLI 1 SEPTEMBER 2024
+
+Adult : 23
+College : 19
+TY : 8
+Kids : 1"
+03:48PM	elya，8號11班建榮＆3年6班建信	"Full house ifgf taipei total 68 org
+1 new comer dari ifgf seattle"
+04:08PM	Michelle	"IFGF ZHONGLI 1 SEPTEMBER 2024
+Adult : 23
+College : 19
+TY : 8
+Kids : 1
+
+IFGF TAIPEI 1 SEPTEMBER 2024
+Adult : 26
+College : 26
+TY : 18
+Kids : 5
+Online : 2"
+
+Sun, 09/08/2024
+11:20AM	Michelle	"IFGF ZHONGLI 8 SEPTEMBER 2024
+
+Adult : 26
+College : 20
+TY : 5
+Kids : 1"
+04:04PM	Michelle	"IFGF ZHONGLI 8 SEPTEMBER 2024
+Adult : 26
+College : 20
+TY : 5
+Kids : 1
+
+IFGF TAIPEI 8 SEPTEMBER 2024
+Adult : 19
+College : 44
+TY : 9
+Kids : 4
+Online : 5"
+
+Sun, 09/15/2024
+11:39AM	Michelle	"IFGF ZHONGLI 15 SEPTEMBER 2024
+
+Adult : 24
+College : 13
+TY : 5
+Kids : 1"
+05:54PM	Michelle	"IFGF ZHONGLI 15 SEPTEMBER 2024
+Adult : 24
+College : 13
+TY : 5
+Kids : 1
+
+IFGF TAIPEI 15 SEPTEMBER 2024
+Adult : 26
+College : 32
+TY : 12
+Kids : 5
+Online : 6"
+
+
+Sun, 09/22/2024
+12:31PM	Michelle	"IFGF ZHONGLI 22 SEPTEMBER 2024
+
+Adult : 21
+College : 15
+TY : 16
+Kids : 1"
+03:58PM	Michelle	"IFGF ZHONGLI 22 SEPTEMBER 2024
+Adult : 21
+College : 15
+TY : 16
+Kids : 1
+
+IFGF TAIPEI 22 SEPTEMBER 2024
+Adult : 20
+College : 42
+TY : 1
+Kids : 5
+Online : 8"
+
+Sun, 09/29/2024
+11:36AM	Michelle	"IFGF ZHONGLI 29 SEPTEMBER 2024
+
+Adult : 20
+College : 11
+TY : 9
+Kids : 1"
+04:32PM	Michelle	"IFGF ZHONGLI 29 SEPTEMBER 2024
+Adult : 20
+College : 11
+TY : 9
+Kids : 1
+
+
+IFGF TAIPEI 29 SEPTEMBER 2024
+Adult : 29
+College : 37
+TY : 7
+Kids : 4
+Online : 7"
+
+Sun, 10/06/2024
+10:53AM	Michelle	"IFGF ZHONGLI 6 OKTOBER 2024
+
+Adult : 17
+College : 24
+TY : 2
+Kids : 1"
+03:59PM	Michelle	"IFGF ZHONGLI 6 OKTOBER 2024
+Adult : 18
+College : 26
+TY : 2
+Kids : 1
+
+
+IFGF TAIPEI 6 OKTOBER 24
+Adult : 19
+College : 44
+TY : 3
+Kids : 4
+Online : 5"
+
+
+Sun, 10/13/2024
+10:19AM	elya，8號11班建榮＆3年6班建信	PTL full.house ifgf zhongli 66 total
+11:00AM	Michelle	"IFGF ZHONGLI 13 OKTOBER 2024
+
+Adult : 39
+College : 17
+TY : 10
+Kids : 3"
+03:17PM	elya，8號11班建榮＆3年6班建信	Full house ifgf taipei.71 total
+04:17PM	Michelle	"IFGF ZHONGLI 13 OKTOBER 2024
+Adult : 39
+College : 17
+TY : 10
+Kids : 3
+
+
+IFGF TAIPEI 13 OKTOBER 2024
+Adult : 19
+College : 53
+TY : 5
+Kids : 4
+Online : 7"
+
+Sun, 10/20/2024
+11:16AM	Michelle	"IFGF ZHONGLI 20 OKTOBER 2024
+
+Adult : 23
+College : 27
+TY : 10
+Kids : 1"
+04:51PM	Michelle	"IFGF ZHONGLI 20 OKTOBER 2024
+Adult : 23
+College : 27
+TY : 10
+Kids : 1
+
+
+IFGF TAIPEI 20 OKTOBER 2024
+Adult : 15
+College : 42
+TY : 4
+Kids : 4
+Online : 6"
+
+Sun, 10/27/2024
+11:52AM	Michelle	"IFGF ZHONGLI 27 OKTOBER 2024
+
+Adult : 21
+College : 19
+TY : 15
+Kids : 1"
+05:04PM	Michelle	"IFGF ZHONGLI 27 OKTOBER 2024
+Adult : 21
+College : 19
+TY : 15
+Kids : 1
+
+IFGF TAIPEI 27 OKTOBER 2024
+Adult : 18
+College : 32
+TY : 2
+Kids : 5
+Online : 5"
+
+Sun, 11/03/2024
+12:44PM	Michelle	"IFGF ZHONGLI 3 NOVEMBER 2024
+
+Adult : 23
+College : 15
+TY : 7
+Kids : 1"
+06:20PM	Michelle	"IFGF ZHONGLI 3 NOVEMBER 2024
+Adult : 23
+College : 15
+TY : 7
+Kids : 1
+
+IFGF TAIPEI  3 NOVEMBER 2024
+
+Adult : 19
+College : 32
+TY : 7
+Kids : 4
+Online : 1"
+
+Sun, 11/10/2024
+11:51AM	Michelle	"IFGF ZHONGLI 10 NOVEMBER 2024
+
+Adult : 18
+College : 15
+TY : 9
+Kids : 1"
+04:58PM	Michelle	"IFGF ZHONGLI 10 NOVEMBER 2024
+Adult : 18
+College : 15
+TY : 9
+Kids : 1
+
+IFGF TAIPEI  10 NOVEMBER 2024
+Adult : 18
+College : 34
+TY : 0
+Kids : 4
+Online : 5"
+
+Sun, 11/17/2024
+12:01PM	Michelle	"IFGF ZHONGLI 17 NOVEMBER 2024
+
+Adult : 27
+College : 19
+TY : 2
+Kids : 1"
+05:10PM	Michelle	"IFGF ZHONGLI 17 NOVEMBER 2024
+Adult : 27
+College : 19
+TY : 2
+Kids : 1
+
+IFGF TAIPEI  17 NOVEMBER 2024
+Adult : 18
+College : 37
+TY : 5
+Kids : 4
+Online : 4"
+
+Sun, 11/24/2024
+12:32PM	Michelle	"IFGF ZHONGLI 24 NOVEMBER 2024
+
+Adult : 23
+College : 18
+TY : 8
+Kids : 1"
+07:08PM	Michelle	"IFGF ZHONGLI 24 NOVEMBER 2024
+Adult : 23
+College : 18
+TY : 8
+Kids : 1
+
+
+
+IFGF TAIPEI  24 NOVEMBER  2024
+Adult : 26
+College : 41
+TY : 3
+Kids : 4
+Online : 2"
+
+Sun, 12/01/2024
+04:53PM	Michelle	"IFGF ZHONGLI  1 Desember 2024
+Adult : 19
+College : 20
+TY : 6
+Kids : 1
+
+IFGF TAIPEI  1 Desember 2024
+Adult : 20
+College : 31
+TY : 1
+Kids : 4
+Online : 6"
+
+Sun, 12/15/2024
+10:51AM	Michelle	"IFGF ZHONGLI  15 Desember 2024
+
+Adult : 14
+College : 25
+TY : 4
+Kids : -"
+05:05PM	Michelle	"IFGF ZHONGLI  15 Desember 2024
+Adult : 14
+College : 25
+TY : 4
+Kids : -
+
+IFGF TAIPEI  15 Desember 2024
+Adult : 20
+College : 31
+TY : 4
+Kids : 4
+Online : 6"
+
+Sun, 12/29/2024
+12:56PM	Berenice 吳君紫	"IFGF ZHONGLI  29 Desember 2024
+
+Adult : 19
+College : 20
+TY : 7
+Kids : 1"
+04:01PM	Michelle	"IFGF ZHONGLI  29 DESEMBER 2024
+Adult : 19
+College : 20
+TY : 7
+Kids : 1
+
+IFGF TAIPEI  29 DESEMBER  2024
+Adult : 17
+College : 24
+TY : 1
+Kids : 4
+Online : 5"
+
+Sun, 01/05/2025
+11:27AM	Michelle	"IFGF ZHONGLI 5 Januari 2025
+Adult : 20
+College : 21
+TY : 8
+Kids : 1"
+04:18PM	Michelle	"IFGF ZHONGLI 5 JANUARI 2025
+Adult : 20
+College : 21
+TY : 8
+Kids : 1
+
+IFGF TAIPEI  5 JANUARI 2025
+Adult : 27
+College : 34
+TY : 1
+Kids : 3
+Online : 2"
+
+Sun, 01/12/2025
+04:23PM	Michelle	"IFGF ZHONGLI 12 JANUARI 2025
+Adult : 19
+College : 14
+TY : 7
+Kids : 1
+
+IFGF TAIPEI 12 JANUARI 2025
+Adult : 16
+College : 28
+TY : 1
+Kids : 3
+Online : 5"
+
+Sun, 01/19/2025
+11:06AM	Michelle	"IFGF ZHONGLI 19 Januari 2025
+
+Adult : 19
+College : 16
+TY : 12
+Kids : 1"
+04:00PM	Michelle	"IFGF ZHONGLI 19 JANUARI 2025
+Adult : 19
+College : 16
+TY : 12
+Kids : 1
+
+IFGF TAIPEI 19 JANUARI 2025
+Adult : 15
+College : 24
+TY : 1
+Kids : 4
+Online : 3"
+
+Sun, 01/26/2025
+11:22AM	Michelle	"IFGF ZHONGLI 26 Januari 2025
+
+Adult : 15
+College : 13
+TY : 7 
+Kids : 1"
+06:24PM	Stephen Lee (李威明)	"IFGF TAIPEI 26 JANUARI 2025
+
+Adult : 18
+College : 19
+TY : 1
+Kids : 4
+Online : 2"
+
+Sun, 02/02/2025
+11:05AM	Michelle	"IFGF ZHONGLI 2 FEBRUARI 2025
+
+Adult : 23
+College : 15
+TY : 4
+Kids : 1"
+04:12PM	Michelle	"IFGF ZHONGLI 2 FEBRUARI 2025
+Adult : 23
+College : 15
+TY : 4
+Kids : 0
+
+IFGF TAIPEI 2 FEBRUARI 2025
+Adult : 20
+College : 23
+TY : 1
+Kids : 4
+Online : 7"
+
+Sun, 02/09/2025
+11:16AM	Michelle	"IFGF ZHONGLI 9  FEBRUARI 2025
+
+Adult : 16
+College : 13
+TY : 13
+Kids : 1"
+04:06PM	Michelle	"IFGF ZHONGLI 9 FEBRUARI 2025
+Adult : 16
+College : 13
+TY : 13
+Kids : 1
+
+IFGF TAIPEI 9 FEBRUARI 2025
+Adult : 18
+College : 18
+TY : 1
+Kids : 4
+Online : 5"
+
+
+Sun, 02/16/2025
+01:03PM	Michelle	"IFGF ZHONGLI 16 FEBRUARI 2025
+
+Adult : 20
+College : 19
+TY : 8
+Kids : 1"
+04:53PM	Michelle	"IFGF ZHONGLI 16 FEBRUARI 2025
+Adult : 20
+College : 19
+TY : 8
+Kids : 1
+
+IFGF TAIPEI 16 FEBRUARI 2025
+Adult : 14
+College : 17
+TY : 3
+Kids : 3
+Online : 2"
+
+
+Sun, 02/23/2025
+12:35PM	Michelle	"IFGF ZHONGLI 23 FEBRUARI 2025
+Adult : 16
+College : 13
+TY : 8
+Kids : 1"
+04:41PM	Michelle	"IFGF ZHONGLI 23 FEBRUARI 2025
+Adult : 16
+College : 13
+TY : 8
+Kids : 1
+
+IFGF TAIPEI 23 FEBRUARI 2025
+Adult : 23
+College : 26
+TY : 1
+Kids : 4
+Online : 3"
+
+Sun, 03/02/2025
+12:00PM	Michelle	"IFGF ZHONGLI 2 Maret 2025
+
+Adult : 26
+College : 29
+TY : 8
+Kids : 2"
+04:17PM	Michelle	"IFGF ZHONGLI 2 MARET 2025
+Adult : 26
+College : 29
+TY : 8
+Kids : 2
+
+IFGF TAIPEI 2 MARET 2025
+Adult : 20
+College : 25
+TY : 1
+Kids : 3
+Online : 1"
+
+Sun, 03/09/2025
+11:39AM	Michelle	"IFGF ZHONGLI 9 MARET 2025
+
+Adult : 14
+College : 14
+TY : 6
+Kids : 1"
+05:28PM	Michelle	"IFGF ZHONGLI 9 MARET 2025
+Adult : 14
+College : 14
+TY : 6
+Kids : 1
+
+IFGF TAIPEI 9 MARET 2025
+Adult : 22
+College : 24
+TY : 1
+Kids : 3
+Online : 5"
+
+Sun, 03/16/2025
+12:31PM	Michelle	"IFGF ZHONGLI 16 MARET 2025
+Adult : 18
+College : 22
+TY : 3
+Kids : 1"
+04:57PM	Michelle	"IFGF ZHONGLI 16 MARET 2025
+Adult : 18
+College : 22
+TY : 3
+Kids : 1
+
+IFGF TAIPEI 16 MARET 2025
+Adult : 18
+College : 22
+TY : 3
+Kids : 3
+Online : 2"
+
+Sun, 03/23/2025
+12:00PM	Berenice 吳君紫	"IFGF ZHONGLI 23 Maret 2025
+
+Adult : 22
+College : 11
+TY : 8
+Kids : 1"
+05:58PM	Stephen Lee (李威明)	"IFGF TAIPEI 23 MARET 2025
+Adult : 18
+College : 31
+TY : 2
+Kids : 4
+Online : 7"
+
+Sun, 04/06/2025
+11:27AM	Michelle	"IFGF ZHONGLI 6 APRIL 2025
+
+Adult : 22
+College : 16
+TY : 3
+Kids : 1"
+05:40PM	Michelle	"IFGF ZHONGLI 6 APRIL 2025
+Adult : 22
+College : 16
+TY : 3
+Kids : 1
+
+IFGF TAIPEI 6 APRIL 2025
+Adult : 26
+College : 21
+TY : 1
+Kids : 4
+Online : 6"
+
+Sun, 04/13/2025
+12:59PM	Michelle	"IFGF ZHONGLI 13 April 2025
+
+Adult : 31
+College : 21
+TY : 4
+Kids : 1"
+06:53PM	Michelle	"IFGF ZHONGLI 13 APRIL 2025
+Adult : 31
+College : 21
+TY : 4
+Kids : 1
+
+IFGF TAIPEI 13 APRIL 2025
+Adult : 21
+College : 13
+TY :3 
+Kids : 3
+Online : "
+
+Sun, 04/20/2025
+11:03AM	Berenice 吳君紫	"IFGF ZHONGLI 20 April 2025
+
+Adult : 24
+College : 19
+TY : 14
+Kids : 1"
+05:22PM	Stephen Lee (李威明)	"IFGF TAIPEI 20 APRIL 2025
+Adult : 23
+College : 26
+TY :3 
+Kids : 3
+Online : 3"
+
+Sun, 05/04/2025
+12:00PM	Berenice 吳君紫	"IFGF ZHONGLI 4 Mei 2025
+
+Adult : 23
+College : 8
+TY : 9
+Kids : 1"
+04:35PM	Natasha Amel 李佳慧	"IFGF ZHONGLI 4 Mei 2025
+
+Adult : 23
+College : 8
+TY : 9
+Kids : 1
+
+IFGF TAIPEI 4 MEI 2025
+Adult : 22
+College : 24
+TY : 1
+Kids : 4
+Online : 3"
+
+
+Sun, 05/11/2025
+12:15PM	Berenice 吳君紫	"IFGF ZHONGLI 11 Mei 2025
+
+Adult : 20
+College : 14
+TY : 6
+Kids : 1"
+04:30PM	Stephen Lee (李威明)	"IFGF TAIPEI 11 Mei 2025
+Adult : 22
+College : 23
+TY :1
+Kids : 3
+Online : 5"
+
+Sun, 05/18/2025
+12:08PM	Berenice 吳君紫	"IFGF ZHONGLI 18 Mei 2025
+
+Adult : 35
+College : 21
+TY : 2
+Kids : 3"
+04:33PM	Stephen Lee (李威明)	"IFGF TAIPEI 18 Mei 2025
+Adult : 16
+College : 13
+TY :1
+Kids : 3
+Online : 6"
+
+Sun, 05/25/2025
+11:59AM	Berenice 吳君紫	"IFGF ZHONGLI 25 Mei 2025
+
+Adult : 14
+College : 20
+TY : 2
+Kids : 1"
+05:15PM	Stephen Lee (李威明)	"IFGF TAIPEI 25 Mei 2025
+Adult : 18
+College : 24
+TY :1
+Kids : 5
+Online : 4"
+
+Sun, 06/01/2025
+11:58AM	Berenice 吳君紫	"IFGF ZHONGLI 1 Juni  2025
+
+Adult : 20
+College : 15
+TY : 8
+Kids : 1"
+04:04PM	Natasha Amel 李佳慧	"IFGF ZHONGLI 1 Juni  2025
+
+Adult : 20
+College : 15
+TY : 8
+Kids : 1
+
+IFGF TAIPEI 1 Juni 2025
+Adult : 24
+College : 25
+TY : 1
+Kids : 4
+Online : 1"
+
+Sun, 06/08/2025
+12:13PM	Berenice 吳君紫	"IFGF ZHONGLI 8 Juni  2025
+
+Adult : 26
+College : 11
+TY : 8
+Kids : 1"
+04:38PM	Stephen Lee (李威明)	"IFGF TAIPEI 8 Juni 2025 
+Adult : 19
+College  : 22
+TY : 2
+Kids : 4
+Online : 0"
+
+Sun, 06/15/2025
+11:51AM	Berenice 吳君紫	"IFGF ZHONGLI 15 Juni  2025
+
+Adult : 19
+College : 12
+TY : 8
+Kids : 1"
+04:17PM	Stephen Lee (李威明)	"IFGF TAIPEI 15 Juni 2025 
+Adult : 28
+College  : 17
+TY : 2
+Kids : 4
+Online : 2"
+
+Sun, 06/22/2025
+11:54AM	Berenice 吳君紫	"IFGF ZHONGLI 22 Juni  2025
+
+Adult : 23
+College : 13
+TY : 7 
+Kids : 1"
+04:30PM	Stephen Lee (李威明)	"IFGF TAIPEI 22 Juni 2025 
+Adult : 24
+College  : 19
+TY : 3
+Kids : 4
+Online :2
+"
+
+Sun, 06/29/2025
+01:06PM	Michelle	"IFGF ZHONGLI 29 Juni  2025
+
+Adult :19
+College : 17
+TY : 4
+Kids : -"
+08:06PM	Stephen Lee (李威明)	"IFGF TAIPEI 29 Juni 2025 
+Adult : 26
+College  : 11
+TY : 2 
+Kids : 4
+Online : 1"
+
+Sun, 07/06/2025
+12:00PM	Berenice 吳君紫	"IFGF ZHONGLI 6 Juli  2025
+
+Adult :15
+College : 19
+TY : 4
+Kids : 1"
+05:34PM	Stephen Lee (李威明)	"IFGF ZHONGLI 6 Juli  2025
+Adult :15
+College : 19
+TY : 4
+Kids : 1
+
+IFGF TAIPEI 6 July 2025 
+Adult : 29
+College  : 25
+TY : 1
+Kids : 5
+Online : 1"
+
+Sun, 07/13/2025
+04:30PM	Michelle	"IFGF ZHONGLI 13 Juli  2025
+Adult : 19
+College : 13
+TY : 11
+Kids : 2
+
+IFGF TAIPEI 13 Juli 2025 
+Adult : 26
+College  : 16
+TY : 2
+Kids : 3
+Online : 3"
+
+Sun, 07/20/2025
+12:15PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 20 Juli  2025
+
+Adult : 22
+College : 16
+TY : 8
+Kids : 2"
+06:09PM	Michelle	"IFGF ZHONGLI 20 Juli 2025
+Adult : 22
+College : 16
+TY : 8
+Kids : 2
+
+IFGF TAIPEI 20 Juli 2025
+Total : 62"
+
+
+Sun, 07/27/2025
+11:59AM	Berenice 吳君紫	"IFGF ZHONGLI 27 Juli  2025
+
+Adult : 13
+College : 27
+TY : 6
+Kids : 1"
+03:58PM	Michelle	"IFGF ZHONGLI 27 Juli 2025
+Adult : 13
+College : 27
+TY : 6
+Kids : 1
+
+IFGF TAIPEI 27 Juli 2025
+Adult : 24
+College : 15
+TY : 1
+Kids : 4"
+
+Sun, 08/03/2025
+03:57PM	Michelle	"IFGF ZHONGLI 3 Agustus 2025
+Adult : 20
+College : 12
+TY : 9
+Kids : 1
+
+IFGF TAIPEI 3 Agustus 2025
+Adult : 24
+College : 19
+TY : 1
+Kids : 3"
+
+Sun, 08/10/2025
+05:13PM	Michelle	"IFGF ZHONGLI 10 Agustus 2025
+Adult : 17
+College : 24
+TY : 9
+Kids : 3
+
+IFGF TAIPEI 10 Agustus 2025
+Adult : 26
+College : 19
+TY : 1
+Kids: 4
+Online : 2"
+
+Sun, 08/17/2025
+11:55AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 17 Agustus 2025
+
+Adult : 20
+College : 18
+TY : 8
+Kids : 1"
+04:28PM	Stephen Lee (李威明)	"IFGF ZHONGLI 17 Agustus 2025
+
+Adult : 20
+College : 18
+TY : 8
+Kids : 1
+
+IFGF TAIPEI 17 Agustus 2025
+
+Adult : 20
+College : 13
+TY : 0
+Kids : 2
+Online :2"
+
+Sun, 08/24/2025
+12:08PM	Berenice 吳君紫	"IFGF ZHONGLI 24 Agustus 2025
+
+Adult : 15
+College : 15
+TY : 6
+Kids : 1"
+04:05PM	Michelle	"IFGF ZHONGLI 24 Agustus 2025
+Adult : 15
+College : 15
+TY : 6
+Kids : 1
+
+IFGF TAIPEI 24 Agustus 2025
+Adult : 20
+College : 17
+TY : 0
+Kids : 2"
+
+Sun, 08/31/2025
+11:51AM	Berenice 吳君紫	"IFGF ZHONGLI 31 Agustus 2025
+
+Adult : 27
+College : 14
+TY : 8
+Kids : 2"
+04:38PM	Stephen Lee (李威明)	"IFGF ZHONGLI 31 Agustus 2025
+
+Adult : 27
+College : 14
+TY : 8
+Kids : 2
+
+IFGF TAIPEI 31 Agustus 2025
+
+Adult : 27
+College : 29
+TY : 1
+Kids : 3
+Online: 0"
+
+Sun, 09/14/2025
+12:14PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 14 September 2025
+
+Adult : 26
+College : 13
+TY : 9
+Kids : 2"
+09:00PM	Stephen Lee (李威明)	"IFGF ZHONGLI 14 September 2025
+
+Adult : 26
+College : 13
+TY : 9
+Kids : 2I
+
+FGF TAIPEI 14 September 2025
+
+Adult : 28
+College : 25
+TY : 1
+Kids : 3"
+
+Sun, 09/21/2025
+12:27PM	Michelle	"IFGF ZHONGLI 21 September 2025
+Adult : 22
+College : 24
+TY : 8
+Kids : 2"
+04:46PM	Michelle	"IFGF ZHONGLI 21 September 2025
+Adult : 22
+College : 24
+TY : 8
+Kids : 2
+
+IFGF TAIPEI 21 September 2025
+Adult : 23
+College : 46
+TY : 1
+Kids : 4"
+
+
+Sun, 09/28/2025
+12:21PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 28 September 2025
+
+Adult : 21
+College : 24
+TY : 6
+Kids : 2"
+04:33PM	Stephen Lee (李威明)	"IFGF ZHONGLI 28 September 2025
+Adult : 21
+College : 24
+TY : 6
+Kids : 2
+
+IFGF TAIPEI 28 September 2025
+College : 47
+Adult : 24
+TY : 1
+Kids : 5
+Online :1
+"
+
+Sun, 10/05/2025
+04:02PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 5 Oktober 2025
+
+Adult : 21
+College : 33
+TY : 3
+Kids : 2"
+04:28PM	Natasha Amel 李佳慧	"IFGF ZHONGLI 5 Oktober 2025
+
+Adult : 21
+College : 33
+TY : 3
+Kids : 2
+
+
+IFGF TAIPEI 5 Oktober 2025
+
+Adult : 31
+College : 43
+TY : 1
+Kids : 4"
+
+
+Sun, 10/19/2025
+10:49AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 19 Oktober 2025
+
+Adult : 24
+College : 27
+TY : 3
+Kids : 2"
+04:59PM	Hani 婁亨妮	"IFGF ZHONGLI 19 Oktober 2025
+
+Adult : 24
+College : 27
+TY : 3
+Kids : 2
+
+
+IFGF TAIPEI 19 Oktober 2025
+
+Adult : 23
+College : 35
+TY : 1
+Kids : 4"
+
+Sun, 10/26/2025
+10:53AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 26 Oktober 2025
+
+Adult : 18
+College : 43
+TY : 3
+Kids : 2"
+04:42PM	Stephen Lee (李威明)	"IFGF ZHONGLI 26 Oktober 2025
+
+Adult : 18
+College : 43
+TY : 3
+Kids : 2
+
+IFGF TAIPEI 26 Oktober 2025
+
+Adult : 20
+College : 38
+TY : 1
+Kids : 5"
+
+Sun, 11/02/2025
+10:59AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 2 NOVEMBER 2025
+
+Adult : 25
+College : 31
+TY : 5
+Kids : 1"
+06:42PM	Stephen Lee (李威明)	"IFGF ZHONGLI 2 NOVEMBER 2025
+
+Adult : 25
+College : 31
+TY : 5
+Kids : 1
+
+IFGF TAIPEI 2 November 2025
+
+Adult : 22
+College : 45
+TY : 1
+Kids : 5"
+06:43PM	elya，8號11班建榮＆3年6班建信	"IFGF ZHONGLI 2 NOVEMBER 2025
+
+Adult : 25
+College : 33
+TY : 5
+Kids : 1
+
+IFGF TAIPEI 2 November 2025
+
+Adult : 22
+College : 45
+TY : 1
+Kids : 5"
+
+
+Sun, 11/09/2025
+12:04PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 9 Nov 2025
+
+Adult : 26
+College : 27
+TY : 6
+Kids : 2"
+06:27PM	Michelle	"IFGF ZHONGLI 9 Nov 2025
+Adult : 26
+College : 27
+TY : 6
+Kids : 2
+
+
+IFGF TAIPEI 9 November 2025
+Adult : 26
+College : 31
+TY : 1
+Kids : 5"
+
+Sun, 11/16/2025
+12:13PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 16 Nov 2025
+
+Adult : 22
+College : 28
+TY : 10
+Kids : 1"
+04:52PM	Michelle	"IFGF ZHONGLI 16 Nov 2025
+Adult : 22
+College : 28
+TY : 10
+Kids : 1
+
+IFGF TAIPEI 16 Nov 2025
+Adult : 33
+College : 37
+TY : 1
+Kids : 4"
+
+
+Sun, 11/23/2025
+11:00AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 23 Nov 2025
+
+Adult : 22
+College : 32
+TY : 5
+Kids : 2"
+04:23PM	Stephen Lee (李威明)	"IFGF ZHONGLI 23 Nov 2025
+
+Adult : 22
+College : 32
+TY : 5
+Kids : 2
+
+IFGF TAIPEI 23 Nov 2025
+
+Adult : 25
+College : 36
+TY : 1
+Kids : 5"
+
+
+Sun, 11/30/2025
+10:57AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 31 Nov 2025
+
+Adult : 26
+College : 20
+TY : 15
+Kids : 1
+Ttl: 63"
+04:31PM	Stephen Lee (李威明)	"IFGF ZHONGLI 31 Nov 2025
+
+Adult : 26
+College : 20
+TY : 15
+Kids : 1
+Ttl: 63
+
+IFGF TAIPEI 31 Nov 2025
+
+Adult :  32
+College : 41
+TY : 1
+Kids : 5
+Ttl: 79"
+
+
+Sun, 12/07/2025
+11:10AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 7 Des 2025
+
+Adult : 29
+College : 26
+TY : 10
+Kids : 1"
+04:09PM	Michelle	"IFGF ZHONGLI 7 Des 2025
+Adult : 29
+College : 26
+TY : 10
+Kids : 1
+
+IFGF TAIPEI 7 Des 2025
+Adult : 40
+College : 43
+TY : 1
+Kids : 3"
+
+Sun, 12/14/2025
+11:27AM	Michelle	"IFGF ZHONGLI 14 Des 2025
+
+Adult : 17
+College : 25
+TY : 10
+Kids : 2"
+
+Sun, 12/21/2025
+11:00AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 21 Des 2025
+
+Adult : 21
+College : 28
+TY : 10
+Kids : 4"
+04:20PM	Stephen Lee (李威明)	"IFGF ZHONGLI 21 Des 2025
+Adult : 21
+College : 28
+TY : 10
+Kids : 4
+
+IFGF TPE 21 Des 2025
+Adult :  28
+College : 27
+TY : 5
+Kids : 4
+
+"
+05:24PM	Stephen Lee (李威明)	"IFGF ZHONGLI 21 Des 2025
+Adult : 21
+College : 28
+TY : 10
+Kids : 4
+
+IFGF TAIPEI 21 Des 2025
+Adult :  28
+College : 27
+TY : 5
+Kids : 4
+"
+
+
+Sun, 01/04/2026
+11:58AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 4 Jan 2026
+
+Adult : 25
+College : 24
+TY : 11
+Kids : 2"
+
+Sun, 01/11/2026
+10:57AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  11 Jan 2026
+
+Adult : 22
+College : 27
+TY : 10
+Kids : 1"
+03:57PM	Michelle	"IFGF ZHONGLI  11 Jan 2026
+Adult : 22
+College : 27
+TY : 10
+Kids : 1
+
+IFGF TAIPEI  11 Jan 2026
+Adult : 30
+College : 28
+TY : 2
+Kids : 7"
+
+Sun, 01/18/2026
+12:22PM	Berenice 吳君紫	"IFGF ZHONGLI  18 Jan 2026
+
+Adult : 25
+College : 33
+TY : 13
+Kids : 2"
+05:54PM	Michelle	"IFGF ZHONGLI  18 Jan 2026
+Adult : 25
+College : 33
+TY : 13
+Kids : 2
+
+IFGF TAIPEI  18 Jan 2026
+Adult : 29
+College : 31
+TY : 1
+Kids : 5"
+
+Sun, 01/25/2026
+11:30AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  25 Jan 2026
+
+Adult : 18
+College : 32
+TY : 8
+Kids : 1"
+04:44PM	Stephen Lee (李威明)	"IFGF ZHONGLI  25 Jan 2026
+
+Adult : 18
+College : 32
+TY : 8
+Kids : 1
+
+IFGF TAIPEI  25 Jan 2026
+
+Adult : 37
+College : 25
+TY : 1
+Kids : 5"
+
+Sun, 02/01/2026
+10:55AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  1 Feb 2026
+
+Adult : 28
+College : 32
+TY : 10
+Kids : 1"
+03:51PM	Michelle	"IFGF ZHONGLI  1 Feb 2026
+Adult : 28
+College : 32
+TY : 10
+Kids : 1
+
+IFGF TAIPEI  1 Feb 2026
+Adult : 27
+College : 20
+TY : 2
+Kids : 5"
+
+Sun, 02/08/2026
+11:12AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 8 Feb 2026
+
+Adult : 25
+College : 27
+TY : 17
+Kids : 1"
+04:27PM	Stephen Lee (李威明)	"IFGF ZHONGLI 8 Feb 2026
+
+Adult : 25
+College : 27
+TY : 17
+Kids : 1
+
+IFGF TAIPEI  8 Feb 2026
+
+Adult : 20
+College : 27
+TY : 1
+Kids : 5"
+
+Sun, 02/15/2026
+11:36AM	Andy（曾金龍）	"IFGF ZHONGLI 15 Feb 2026
+
+Adult : 21
+College : 27 
+TY : 14 
+Kids : 1"
+06:17PM	Michelle	"IFGF ZHONGLI 15 Feb 2026
+Adult : 21
+College : 27 
+TY : 14 
+Kids : 1
+
+IFGF TAIPEI  15 Feb 2026
+Adult : 26
+College : 26
+TY : 1
+Kids : 5"
+
+Sun, 02/22/2026
+10:51AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  22 feb 2026
+
+Adult : 17
+College : 28
+TY : 9
+Kids : 1"
+06:31PM	Steven C. | 陳瑞漢	"IFGF TAIPEI  22 Feb 2026
+
+Adult : 28
+College : 29
+TY : 1 
+Kids : 5"
+
+Sun, 03/01/2026
+11:03AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  1 Maret 2026
+
+Adult : 20
+College : 39
+TY : 13
+Kids : 1"
+
+============================================================
+Coverage Check (per Sunday)
+============================================================
+Sun, 01/02/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/09/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/16/2022 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 01/23/2022 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 01/30/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/06/2022 | reports found: 1 | Zhongli: OK | Taipei: MISSING
+Sun, 02/13/2022 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 02/20/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/27/2022 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 03/06/2022 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 03/13/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/20/2022 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 03/27/2022 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 04/03/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/10/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/17/2022 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 04/24/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/01/2022 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 05/08/2022 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 05/15/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/22/2022 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 05/29/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/05/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/12/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/19/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/26/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/03/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/10/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/17/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/24/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/31/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/07/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/14/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/21/2022 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 08/28/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/04/2022 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 09/11/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/18/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/25/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/02/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/09/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/16/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/23/2022 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 10/30/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/06/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/13/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/20/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/27/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/04/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/11/2022 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 12/18/2022 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/01/2023 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 01/08/2023 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 01/15/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/22/2023 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 01/29/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/05/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/12/2023 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 02/19/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/26/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/05/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/12/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/19/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/26/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/02/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/09/2023 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 04/16/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/23/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/30/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/07/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/14/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/21/2023 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 05/28/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/04/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/11/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/18/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/25/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/02/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/09/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/16/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/23/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/30/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/06/2023 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 08/13/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/20/2023 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 08/27/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/03/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/10/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/17/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/24/2023 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 10/01/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/08/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/15/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/22/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/29/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/05/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/12/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/19/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/26/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/03/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/10/2023 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 12/17/2023 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/24/2023 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 12/31/2023 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 01/07/2024 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 01/14/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/21/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/28/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/04/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/11/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/18/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/25/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/03/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/10/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/17/2024 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 03/24/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/31/2024 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 04/07/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/14/2024 | reports found: 1 | Zhongli: MISSING | Taipei: OK
+Sun, 04/21/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/28/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/05/2024 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 05/12/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/19/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/26/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/02/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/09/2024 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 06/16/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/23/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/30/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/07/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/14/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/21/2024 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 07/28/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/04/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/11/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/18/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/25/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/01/2024 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 09/08/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/15/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/22/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/29/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/06/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/13/2024 | reports found: 4 | Zhongli: OK | Taipei: OK
+Sun, 10/20/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/27/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/03/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/10/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/17/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/24/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/01/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 12/08/2024 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 12/15/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/22/2024 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 12/29/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/05/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/12/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 01/19/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/26/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/02/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/09/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/16/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/23/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/02/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/09/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/16/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/23/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/30/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 04/06/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/13/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/20/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/27/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 05/04/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/11/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/18/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 05/25/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/01/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/08/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/15/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/22/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 06/29/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/06/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/13/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 07/20/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/27/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/03/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 08/10/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 08/17/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/24/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/31/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/07/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 09/14/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/21/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/28/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/05/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/12/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 10/19/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/26/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/02/2025 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 11/09/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/16/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/23/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/30/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/07/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/14/2025 | reports found: 1 | Zhongli: OK | Taipei: MISSING
+Sun, 12/21/2025 | reports found: 3 | Zhongli: OK | Taipei: OK
+Sun, 12/28/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
+Sun, 01/04/2026 | reports found: 1 | Zhongli: OK | Taipei: MISSING
+Sun, 01/11/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/18/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/25/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/01/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/08/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/15/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/22/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/01/2026 | reports found: 1 | Zhongli: OK | Taipei: MISSING
+
+Missing summary
+------------------------------------------------------------
+Sundays missing Zhongli report:
+- Sun, 01/16/2022
+- Sun, 04/17/2022
+- Sun, 08/21/2022
+- Sun, 09/04/2022
+- Sun, 12/11/2022
+- Sun, 01/01/2023
+- Sun, 01/08/2023
+- Sun, 01/22/2023
+- Sun, 02/12/2023
+- Sun, 04/09/2023
+- Sun, 05/21/2023
+- Sun, 08/06/2023
+- Sun, 08/20/2023
+- Sun, 12/10/2023
+- Sun, 12/24/2023
+- Sun, 12/31/2023
+- Sun, 01/07/2024
+- Sun, 03/31/2024
+- Sun, 04/14/2024
+- Sun, 06/09/2024
+- Sun, 12/08/2024
+- Sun, 12/22/2024
+- Sun, 03/30/2025
+- Sun, 04/27/2025
+- Sun, 09/07/2025
+- Sun, 10/12/2025
+- Sun, 12/28/2025
+
+Sundays missing Taipei report:
+- Sun, 02/06/2022
+- Sun, 04/17/2022
+- Sun, 12/11/2022
+- Sun, 04/09/2023
+- Sun, 05/21/2023
+- Sun, 08/20/2023
+- Sun, 12/10/2023
+- Sun, 12/24/2023
+- Sun, 03/31/2024
+- Sun, 06/09/2024
+- Sun, 12/08/2024
+- Sun, 12/22/2024
+- Sun, 03/30/2025
+- Sun, 04/27/2025
+- Sun, 09/07/2025
+- Sun, 10/12/2025
+- Sun, 12/14/2025
+- Sun, 12/28/2025
+- Sun, 01/04/2026
+- Sun, 03/01/2026
