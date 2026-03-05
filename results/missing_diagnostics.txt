@@ -1,6 +1,6 @@
 Diagnostics for Remaining Missing Sundays
-Source: data/LINE chat report.txt
-Generated: 2026-03-02 23:48:56
+Source: LINE chat report.txt
+Generated: 2026-03-05 23:49:55
 
 Only includes dates where messages mentioned the location but were not parsed.
 

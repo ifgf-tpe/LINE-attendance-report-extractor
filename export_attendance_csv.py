@@ -123,8 +123,8 @@ def extract_counts(msg: LineMessage) -> ExtractedCounts:
             adult = parse_value_for_token(line, "adult")
         if college is None and re.search(r"\bcollege\b", cf):
             college = parse_value_for_token(line, "college")
-        if youth is None and re.search(r"\byouth\b", cf):
-            youth = parse_value_for_token(line, "youth")
+        if youth is None and (re.search(r"\byouth\b", cf) or re.search(r"\bty\b", cf)):
+            youth = parse_value_for_token(line, "youth") or parse_value_for_token(line, "ty")
         if kids is None and re.search(r"\b(kids?|kid|child|children)\b", cf):
             kids = (
                 parse_value_for_token(line, "kids")
@@ -242,11 +242,11 @@ def detect_location_loose(msg: LineMessage) -> str | None:
 
 
 def choose_best(messages: list[LineMessage]) -> LineMessage:
-    # Prefer the message with the most extracted fields; tie-breaker by latest time.
+    # Prefer the latest time; tie-breaker by the most extracted fields.
     scored = []
     for m in messages:
         counts = extract_counts(m)
-        scored.append((counts.score(), parse_time_sort_key(m), m))
+        scored.append((parse_time_sort_key(m), counts.score(), m))
     scored.sort(key=lambda t: (t[0], t[1]))
     return scored[-1][2]
 
@@ -289,22 +289,67 @@ def write_csv(path: Path, rows: Iterable[dict[str, object]]) -> None:
         "Date",
         "Status",
         "Inferred",
-        "Total",
         "Adult",
         "College",
-        "AdultPlusCollege",
-        "Youth",
+        "Youth/TY",
         "Kids",
         "Online",
-        "Zoom",
+        "Total",
         "SourceTime",
-        "Sender",
+        "Reporter",
     ]
+
+    def as_int(value: object) -> int:
+        if value is None:
+            return 0
+        if isinstance(value, bool):
+            return int(value)
+        if isinstance(value, int):
+            return value
+        if isinstance(value, float):
+            return int(value)
+        text = str(value).strip()
+        return int(text) if text.isdigit() else 0
+
+    def normalize_row(r: dict[str, object]) -> dict[str, object]:
+        out: dict[str, object] = {k: r.get(k, "") for k in fieldnames}
+
+        # Normalize numeric recap fields to 0 when empty.
+        adult_v = r.get("Adult")
+        college_v = r.get("College")
+        youth_v = r.get("Youth/TY")
+        kids_v = r.get("Kids")
+        online_v = r.get("Online")
+
+        out["Adult"] = as_int(adult_v) if adult_v in (None, "") else adult_v
+        out["College"] = as_int(college_v) if college_v in (None, "") else college_v
+        out["Youth/TY"] = as_int(youth_v) if youth_v in (None, "") else youth_v
+        out["Kids"] = as_int(kids_v) if kids_v in (None, "") else kids_v
+        out["Online"] = as_int(online_v) if online_v in (None, "") else online_v
+
+        total_v = r.get("Total")
+        if total_v in (None, ""):
+            total_calc = (
+                as_int(out["Adult"])
+                + as_int(out["College"])
+                + as_int(out["Youth/TY"])
+                + as_int(out["Kids"])
+                + as_int(out["Online"])
+            )
+            out["Total"] = total_calc
+        else:
+            out["Total"] = as_int(total_v)
+
+        # Reporter rename (backward-compatible if old key is present).
+        if not out.get("Reporter") and r.get("Sender"):
+            out["Reporter"] = r.get("Sender", "")
+
+        return out
     with path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         for r in rows_list:
-            writer.writerow({k: r.get(k, "") for k in fieldnames})
+            writer.writerow(normalize_row(r))
 
 
 def main() -> int:
@@ -367,6 +412,10 @@ def main() -> int:
         for loc in ("Zhongli", "Taipei"):
             rows: list[dict[str, object]] = []
 
+            def combined_online(counts: ExtractedCounts) -> int | None:
+                vals = [v for v in (counts.online, counts.zoom) if v is not None]
+                return sum(vals) if vals else None
+
             for d in sundays:
                 key = (d, loc)
                 msgs = by_date_loc.get(key, [])
@@ -392,21 +441,25 @@ def main() -> int:
                         if inferred_msg.lines:
                             source_time = inferred_msg.lines[0].split("\t")[0]
 
+                        adult_val: object = counts.adult
+                        college_val: object = counts.college
+                        if counts.adult_plus_college is not None and counts.adult is None and counts.college is None:
+                            adult_val = counts.adult_plus_college
+                            college_val = "Combined with Adult"
+
                         rows.append(
                             {
                                 "Date": d.isoformat(),
-                                "Total": counts.total,
-                                "Adult": counts.adult,
-                                "College": counts.college,
-                                "AdultPlusCollege": counts.adult_plus_college,
-                                "Youth": counts.youth,
+                                "Adult": adult_val,
+                                "College": college_val,
+                                "Youth/TY": counts.youth,
                                 "Kids": counts.kids,
-                                "Online": counts.online,
-                                "Zoom": counts.zoom,
+                                "Total": counts.total,
+                                "Online": combined_online(counts),
                                 "Status": "OK",
                                 "Inferred": "Yes",
                                 "SourceTime": source_time,
-                                "Sender": sender,
+                                "Reporter": sender,
                             }
                         )
 
@@ -459,18 +512,20 @@ def main() -> int:
                 rows.append(
                     {
                         "Date": d.isoformat(),
-                        "Total": counts.total,
-                        "Adult": counts.adult,
-                        "College": counts.college,
-                        "AdultPlusCollege": counts.adult_plus_college,
-                        "Youth": counts.youth,
+                        "Adult": (counts.adult_plus_college if (counts.adult_plus_college is not None and counts.adult is None and counts.college is None) else counts.adult),
+                        "College": (
+                            "Combined with Adult"
+                            if (counts.adult_plus_college is not None and counts.adult is None and counts.college is None)
+                            else counts.college
+                        ),
+                        "Youth/TY": counts.youth,
                         "Kids": counts.kids,
-                        "Online": counts.online,
-                        "Zoom": counts.zoom,
+                        "Total": counts.total,
+                        "Online": combined_online(counts),
                         "Status": "OK",
                         "Inferred": "",
                         "SourceTime": source_time,
-                        "Sender": sender,
+                        "Reporter": sender,
                     }
                 )
 

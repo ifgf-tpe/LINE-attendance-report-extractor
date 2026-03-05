@@ -16,6 +16,7 @@ This script uses only the Python standard library.
 from __future__ import annotations
 
 import argparse
+import csv
 import datetime as dt
 import re
 from dataclasses import dataclass
@@ -237,55 +238,273 @@ def format_date_header(date: dt.date) -> str:
     return f"Sun, {date:%m/%d/%Y}"
 
 
+def parse_time_sort_key(msg: LineMessage) -> int:
+    if not msg.lines:
+        return -1
+    m = MESSAGE_START_RE.match(msg.lines[0])
+    if not m:
+        return -1
+    hh, mm, ampm = m.groups()
+    hour = int(hh) % 12
+    if ampm.upper() == "PM":
+        hour += 12
+    return hour * 60 + int(mm)
+
+
+def recap_token_score(msg: LineMessage) -> int:
+    """Heuristic score for how 'complete' a recap looks.
+
+    Used only as a tie-breaker when multiple messages exist for the same
+    date+location (common when afternoon sends a revision).
+    """
+
+    tokens = ("total", "adult", "college", "youth", "kids", "kid", "child", "children", "online", "zoom")
+    count_pat = r"(\d{1,3})(?![:/]\d)"
+    found: set[str] = set()
+    for raw in msg.body_lines():
+        line = raw.strip().strip('"')
+        if not line:
+            continue
+        cf = line.casefold()
+        for token in tokens:
+            if token not in cf:
+                continue
+            if re.search(rf"\b{re.escape(token)}\b\s*[:=+\-]?\s*{count_pat}\b", cf) or re.search(
+                rf"\b{count_pat}\b\s*[:=+\-]?\s*\b{re.escape(token)}\b", cf
+            ):
+                found.add(token)
+    return len(found)
+
+
+def choose_latest(messages: list[LineMessage]) -> LineMessage:
+    # Prefer the latest timestamp; tie-breaker by how many recap tokens are present.
+    return max(messages, key=lambda m: (parse_time_sort_key(m), recap_token_score(m)))
+
+
+def choose_latest_for_location(messages: list[LineMessage], loc: str) -> LineMessage:
+    """Pick the best message for a given location.
+
+    Prefer a message that mentions ONLY that location (not both). If none exist,
+    fall back to the latest among all messages that mention the location.
+    """
+
+    loc_only = [m for m in messages if detect_locations(m) == {loc}]
+    return choose_latest(loc_only if loc_only else messages)
+
+
+def _normalized_message_body(msg: LineMessage) -> str:
+    """Normalize message body for de-dup comparisons.
+
+    We intentionally ignore sender/time and focus on the report content.
+    """
+
+    text = "\n".join(line.strip().strip('"') for line in msg.body_lines()).strip()
+    text = re.sub(r"\s+", " ", text)
+    return text.casefold()
+
+
+def _dedupe_consecutive_same_content(messages: list[LineMessage]) -> list[LineMessage]:
+    """Drop consecutive duplicate-content messages, keeping the later one.
+
+    Rule: if message i has the same (normalized) body as message i+1,
+    remove message i.
+    """
+
+    if len(messages) <= 1:
+        return messages
+
+    ordered = sorted(messages, key=parse_time_sort_key)
+    kept: list[LineMessage] = []
+    for i, msg in enumerate(ordered):
+        if i + 1 < len(ordered) and _normalized_message_body(msg) == _normalized_message_body(ordered[i + 1]):
+            continue
+        kept.append(msg)
+    return kept
+
+
+def _has_revisi(msg: LineMessage) -> bool:
+    return "revisi" in _normalized_message_body(msg)
+
+
+def _reporter_name(msg: LineMessage) -> str:
+    if not msg.lines:
+        return ""
+    parts = msg.lines[0].split("\t")
+    return parts[1].strip() if len(parts) >= 2 else ""
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Filter Sunday Adult/Youth/Kids attendance reports from LINE export")
     parser.add_argument(
         "--input",
-        default=str(Path("data") / "LINE chat report.txt"),
+        default=str(Path("LINE chat report.txt")),
         help="Path to LINE export txt",
     )
     parser.add_argument(
         "--output",
-        default=str(Path("data") / "LINE chat report.filtered.txt"),
-        help="Path to write filtered txt",
+        default=str(Path("results") / "LINE chat report.final.filtered.txt"),
+        help="Path to write final filtered txt",
     )
     parser.add_argument(
-        "--missing-report",
-        default=str(Path("data") / "weeks-missing-report.txt"),
-        help="Path to write simplified missing-weeks report",
+        "--sunday-output",
+        default=str(Path("results") / "LINE chat report.sunday-only.filtered.txt"),
+        help="Path to write all Sunday messages txt (unfiltered)",
+    )
+    parser.add_argument(
+        "--sunday-recap-output",
+        default=str(Path("results") / "LINE chat report.sunday-recap.filtered.txt"),
+        help="Path to write Sunday attendance recap messages txt (duplicates allowed)",
+    )
+    parser.add_argument(
+        "--results-dir",
+        default=str(Path("results")),
+        help="Directory to write missing-report CSVs",
     )
     args = parser.parse_args()
 
     input_path = Path(args.input)
     output_path = Path(args.output)
-    missing_report_path = Path(args.missing_report)
+    sunday_output_path = Path(args.sunday_output)
+    sunday_recap_output_path = Path(args.sunday_recap_output)
+    results_dir = Path(args.results_dir)
 
     raw = input_path.read_text(encoding="utf-8", errors="replace").splitlines(True)
     messages, all_dates = parse_line_export(raw)
 
+    # Write "Sunday-only" output (all messages on Sundays, unfiltered).
+    sundays_all: dict[dt.date, list[LineMessage]] = {}
+    for m in messages:
+        if m.dow != "Sun":
+            continue
+        sundays_all.setdefault(m.date, []).append(m)
+    for d, msgs in list(sundays_all.items()):
+        sundays_all[d] = sorted(msgs, key=parse_time_sort_key)
+
+    sunday_lines: list[str] = []
+    sunday_lines.append("Sunday Messages (Unfiltered)")
+    sunday_lines.append(f"Source: {input_path.as_posix()}")
+    sunday_lines.append(f"Generated: {dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    for d in sorted(sundays_all.keys()):
+        sunday_lines.append("")
+        sunday_lines.append(format_date_header(d))
+        for msg in sundays_all[d]:
+            sunday_lines.append("")
+            sunday_lines.extend(msg.lines)
+    sunday_output_path.parent.mkdir(parents=True, exist_ok=True)
+    sunday_output_path.write_text("\n".join(sunday_lines) + "\n", encoding="utf-8")
+
     # Filter: Sunday + attendance report.
     sunday_reports: list[LineMessage] = [m for m in messages if m.dow == "Sun" and is_attendance_report(m)]
 
-    # Group by date.
-    by_date: dict[dt.date, list[LineMessage]] = {}
+    # Write "Sunday recap" output (attendance recap messages only; duplicates allowed).
+    recap_by_date: dict[dt.date, list[LineMessage]] = {}
     for m in sunday_reports:
-        by_date.setdefault(m.date, []).append(m)
+        recap_by_date.setdefault(m.date, []).append(m)
+    for d, msgs in list(recap_by_date.items()):
+        recap_by_date[d] = sorted(msgs, key=parse_time_sort_key)
 
-    # Expectation set: only Sundays that actually exist in the export.
-    # This matches the usual meaning of “missing report for a given Sunday”
-    # without assuming the chat log is continuous across weeks.
-    expected_sundays = sorted(d for d in all_dates if d.weekday() == 6)
+    recap_lines: list[str] = []
+    recap_lines.append("Sunday Attendance Recap Messages (Filtered; Duplicates Allowed)")
+    recap_lines.append(f"Source: {input_path.as_posix()}")
+    recap_lines.append(f"Generated: {dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    for d in sorted(recap_by_date.keys()):
+        recap_lines.append("")
+        recap_lines.append(format_date_header(d))
+        for msg in recap_by_date[d]:
+            recap_lines.append("")
+            recap_lines.extend(msg.lines)
+    sunday_recap_output_path.parent.mkdir(parents=True, exist_ok=True)
+    sunday_recap_output_path.write_text("\n".join(recap_lines) + "\n", encoding="utf-8")
 
-    # Coverage check.
+    # Group by date+location and pick only the latest recap per location.
+    by_date_loc: dict[tuple[dt.date, str], list[LineMessage]] = {}
+    for m in sunday_reports:
+        for loc in detect_locations(m):
+            by_date_loc.setdefault((m.date, loc), []).append(m)
+
+    # Zhongli tends to have repeated copy/paste resends; collapse consecutive duplicates
+    # so the per-day counts are easier to review.
+    for (date, loc), msgs in list(by_date_loc.items()):
+        if loc != "Zhongli":
+            continue
+        by_date_loc[(date, loc)] = _dedupe_consecutive_same_content(msgs)
+
+    chosen_by_date_loc: dict[tuple[dt.date, str], LineMessage] = {}
+    by_date: dict[dt.date, list[LineMessage]] = {}
+    for (date, loc), msgs in by_date_loc.items():
+        if not msgs:
+            continue
+        chosen = choose_latest_for_location(msgs, loc)
+        chosen_by_date_loc[(date, loc)] = chosen
+        existing = by_date.setdefault(date, [])
+        if chosen not in existing:
+            existing.append(chosen)
+
+    # Keep output stable: Zhongli first, then Taipei.
+    for d, msgs in list(by_date.items()):
+        by_date[d] = sorted(msgs, key=lambda m: ("Zhongli" not in detect_locations(m), parse_time_sort_key(m)))
+
+    # Expectation set: Sundays within each year present in the export.
+    # This lets us identify "missing chat" Sundays (no date header) as well.
+    if not all_dates:
+        print("No dated headers found in export.")
+        return 1
+
+    dates_by_year: dict[int, list[dt.date]] = {}
+    for d in all_dates:
+        dates_by_year.setdefault(d.year, []).append(d)
+
+    expected_sundays: list[dt.date] = []
+    for year, dates in dates_by_year.items():
+        expected_sundays.extend(sunday_range(min(dates), max(dates)))
+    expected_sundays = sorted(set(expected_sundays))
+
+    missing_chat_sundays = [d for d in expected_sundays if d not in all_dates]
+
+    # Coverage check (based on the latest-per-location messages we actually write).
     coverage: dict[dt.date, dict[str, bool]] = {}
     for d in expected_sundays:
-        coverage[d] = {"Zhongli": False, "Taipei": False}
-        for msg in by_date.get(d, []):
-            for loc in detect_locations(msg):
-                coverage[d][loc] = True
+        coverage[d] = {
+            "Zhongli": (d, "Zhongli") in chosen_by_date_loc,
+            "Taipei": (d, "Taipei") in chosen_by_date_loc,
+        }
 
     missing_zhongli = [d for d in expected_sundays if not coverage[d]["Zhongli"]]
     missing_taipei = [d for d in expected_sundays if not coverage[d]["Taipei"]]
+
+    # Write report summary CSV (missing counts + revisi flags).
+    results_dir.mkdir(parents=True, exist_ok=True)
+    report_csv = results_dir / "filtered-chat-report.csv"
+
+    def row_for_date(d: dt.date) -> dict[str, object]:
+        tpe_msg = chosen_by_date_loc.get((d, "Taipei"))
+        zl_msg = chosen_by_date_loc.get((d, "Zhongli"))
+
+        def cell(msg: LineMessage | None) -> tuple[str, str]:
+            if msg is None:
+                return "MISSING", ""
+            reporter = _reporter_name(msg)
+            if _has_revisi(msg):
+                return "Revisi", reporter
+            return "1", reporter
+
+        tpe_cell, tpe_reporter = cell(tpe_msg)
+        zl_cell, zl_reporter = cell(zl_msg)
+        return {
+            "Date": d.isoformat(),
+            "Taipei": tpe_cell,
+            "Zhongli": zl_cell,
+            "TPE-Reporter": tpe_reporter,
+            "ZL-Reporter": zl_reporter,
+        }
+
+    fieldnames = ["Date", "Taipei", "Zhongli", "TPE-Reporter", "ZL-Reporter"]
+
+    with report_csv.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for d in expected_sundays:
+            w.writerow(row_for_date(d))
 
     # Write output.
     generated_at = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -298,6 +517,7 @@ def main() -> int:
         out_lines.append("")
         out_lines.append(format_date_header(d))
         for msg in by_date[d]:
+            out_lines.append("")
             out_lines.extend(msg.lines)
 
     out_lines.append("")
@@ -314,91 +534,21 @@ def main() -> int:
     out_lines.append("")
     out_lines.append("Missing summary")
     out_lines.append("-" * 60)
-
-    if missing_zhongli:
-        out_lines.append("Sundays missing Zhongli report:")
-        out_lines.extend([f"- {format_date_header(d)}" for d in missing_zhongli])
-    else:
-        out_lines.append("Sundays missing Zhongli report: (none)")
-
+    out_lines.append(f"Sundays missing from chat export (no date header): {len(missing_chat_sundays)}")
+    out_lines.append(f"Missing Zhongli Sundays: {len(missing_zhongli)}")
+    out_lines.append(f"Missing Taipei Sundays: {len(missing_taipei)}")
     out_lines.append("")
-    if missing_taipei:
-        out_lines.append("Sundays missing Taipei report:")
-        out_lines.extend([f"- {format_date_header(d)}" for d in missing_taipei])
-    else:
-        out_lines.append("Sundays missing Taipei report: (none)")
+    out_lines.append(f"Report CSV: {report_csv.as_posix()}")
 
     output_path.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
 
-    # Write simplified missing-weeks report to make manual checking easier.
-    # Include a few candidate raw messages from the same Sunday that mention
-    # the missing location and include either "Adult" or "Total".
-    messages_by_date: dict[dt.date, list[LineMessage]] = {}
-    for m in messages:
-        if m.dow == "Sun":
-            messages_by_date.setdefault(m.date, []).append(m)
-
-    def summarize_candidates(date: dt.date, missing_loc: str) -> list[str]:
-        candidates: list[str] = []
-        for m in messages_by_date.get(date, []):
-            text = "\n".join(m.body_lines()).casefold()
-            if re.search(rf"\b{missing_loc.casefold()}\b", text) is None:
-                continue
-            if re.search(r"\b(adult|total)\b", text) is None:
-                continue
-            if re.search(r"\b\d{1,3}\b", text) is None:
-                continue
-            one_line = " ".join(bl.strip().strip('"') for bl in m.body_lines() if bl.strip())
-            one_line = re.sub(r"\s+", " ", one_line).strip()
-            if one_line:
-                candidates.append(one_line[:200])
-        # keep only a few to avoid huge file
-        return candidates[:5]
-
-    missing_lines: list[str] = []
-    missing_lines.append("Weeks Missing Report (Sunday coverage gaps)")
-    missing_lines.append(f"Source: {input_path.as_posix()}")
-    missing_lines.append(f"Generated: {generated_at}")
-    missing_lines.append("")
-
-    missing_lines.append("Summary")
-    missing_lines.append("-" * 60)
-    missing_lines.append(f"Missing Zhongli Sundays: {len(missing_zhongli)}")
-    missing_lines.extend([f"- {format_date_header(d)}" for d in missing_zhongli] or ["- (none)"])
-    missing_lines.append("")
-    missing_lines.append(f"Missing Taipei Sundays: {len(missing_taipei)}")
-    missing_lines.extend([f"- {format_date_header(d)}" for d in missing_taipei] or ["- (none)"])
-    missing_lines.append("")
-    missing_lines.append("Details")
-    missing_lines.append("-" * 60)
-    missing_lines.append("")
-
-    any_missing = False
-    for d in expected_sundays:
-        missing_locs = [loc for loc in ("Zhongli", "Taipei") if not coverage[d][loc]]
-        if not missing_locs:
-            continue
-        any_missing = True
-        missing_lines.append(format_date_header(d))
-        missing_lines.append(f"Missing: {', '.join(missing_locs)}")
-        missing_lines.append(f"Kept reports found: {len(by_date.get(d, []))}")
-        for loc in missing_locs:
-            cands = summarize_candidates(d, loc)
-            if cands:
-                missing_lines.append(f"Candidates mentioning {loc} (Adult/Total):")
-                missing_lines.extend([f"- {c}" for c in cands])
-            else:
-                missing_lines.append(f"Candidates mentioning {loc} (Adult/Total): (none)")
-        missing_lines.append("")
-
-    if not any_missing:
-        missing_lines.append("No missing Sundays detected for Zhongli/Taipei.")
-
-    missing_report_path.write_text("\n".join(missing_lines) + "\n", encoding="utf-8")
-
+    kept_count = sum(len(v) for v in by_date.values())
+    print(f"Wrote: {sunday_output_path}")
+    print(f"Wrote: {sunday_recap_output_path}")
     print(f"Wrote: {output_path}")
-    print(f"Wrote: {missing_report_path}")
-    print(f"Sunday report messages kept: {len(sunday_reports)}")
+    print(f"Wrote: {report_csv}")
+    print(f"Sunday report messages matched (pre-dedupe): {len(sunday_reports)}")
+    print(f"Sunday recaps written (post-dedupe): {kept_count}")
     print(f"Sundays in range: {len(expected_sundays)}")
     print(f"Missing Zhongli Sundays: {len(missing_zhongli)}")
     print(f"Missing Taipei Sundays: {len(missing_taipei)}")

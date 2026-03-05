@@ -1,6 +1,6 @@
 Filtered Sunday Attendance Reports (Adult count OR Total-only)
 Source: LINE chat report.txt
-Generated: 2026-03-04 22:58:27
+Generated: 2026-03-05 23:35:49
 
 Sun, 01/02/2022
 
@@ -1856,14 +1856,14 @@ Online : 5 (All Adult)"
 
 Sun, 07/21/2024
 
-05:53PM	Michelle	"IFGF ZHONGLI 21 JULI 2024
+04:42PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 21 JULI 2024
 
 Adult : 20
 College : 10
 TY : 3
-Kids : 1
+Kids : 1"
 
-IFGF TAIPEI 21 JULI 2024
+04:44PM	Stephen Lee (李威明)	"IFGF TAIPEI 21 JULI 2024
 
 Adult :  26
 College : 39
@@ -1872,6 +1872,13 @@ Kids : 3
 Online : 7(adult)"
 
 Sun, 07/28/2024
+
+10:51AM	Michelle	"IFGF ZHONGLI 28 JULI 2024
+
+Adult : 15
+College : 14
+TY : 4
+Kids : 0"
 
 03:56PM	Michelle	"IFGF ZHONGLI 28 JULI 2024
 
@@ -1890,6 +1897,13 @@ Online : 5"
 
 Sun, 08/04/2024
 
+10:46AM	Michelle	"IFGF ZHONGLI 4 AGUSTUS 2024
+
+Adult : 18
+College : 14
+TY : 7
+Kids : 0"
+
 03:59PM	Michelle	"IFGF ZHONGLI 4 AGUSTUS 2024
 Adult : 18
 College : 14
@@ -1905,6 +1919,13 @@ Online : 4"
 
 Sun, 08/11/2024
 
+10:47AM	Andy（曾金龍）	"IFGF ZHONGLI 11 AGUSTUS 2024
+
+Adult : 21
+College : 8
+TY : 6
+Kids : 1"
+
 04:04PM	Michelle	"IFGF ZHONGLI 11 AGUSTUS 2024
 Adult : 21
 College : 8
@@ -1919,6 +1940,13 @@ Kids : 6
 Online : 7"
 
 Sun, 08/18/2024
+
+10:48AM	Michelle	"IFGF ZHONGLI 18 AGUSTUS 2024
+
+Adult : 19
+College : 14
+TY : 4
+Kids : 1"
 
 04:16PM	Michelle	"IFGF ZHONGLI 18 AGUSTUS 2024
 
@@ -1937,6 +1965,13 @@ Online : 3"
 
 Sun, 08/25/2024
 
+11:07AM	Michelle	"IFGF ZHONGLI 25 AGUSTUS 2024
+
+Adult : 22
+College :  13
+TY : 16
+Kids :  0"
+
 03:58PM	Michelle	"IFGF ZHONGLI 25 AGUSTUS 2024
 
 Adult : 22
@@ -1954,20 +1989,24 @@ Online : 7"
 
 Sun, 09/01/2024
 
-04:08PM	Michelle	"IFGF ZHONGLI 1 SEPTEMBER 2024
+01:18PM	Michelle	"IFGF ZHONGLI 1 SEPTEMBER 2024
+
 Adult : 23
 College : 19
 TY : 8
-Kids : 1
+Kids : 1"
 
-IFGF TAIPEI 1 SEPTEMBER 2024
-Adult : 26
-College : 26
-TY : 18
-Kids : 5
-Online : 2"
+03:48PM	elya，8號11班建榮＆3年6班建信	"Full house ifgf taipei total 68 org
+1 new comer dari ifgf seattle"
 
 Sun, 09/08/2024
+
+11:20AM	Michelle	"IFGF ZHONGLI 8 SEPTEMBER 2024
+
+Adult : 26
+College : 20
+TY : 5
+Kids : 1"
 
 04:04PM	Michelle	"IFGF ZHONGLI 8 SEPTEMBER 2024
 Adult : 26
@@ -1983,6 +2022,13 @@ Kids : 4
 Online : 5"
 
 Sun, 09/15/2024
+
+11:39AM	Michelle	"IFGF ZHONGLI 15 SEPTEMBER 2024
+
+Adult : 24
+College : 13
+TY : 5
+Kids : 1"
 
 05:54PM	Michelle	"IFGF ZHONGLI 15 SEPTEMBER 2024
 Adult : 24
@@ -2000,6 +2046,13 @@ Online : 6"
 
 Sun, 09/22/2024
 
+12:31PM	Michelle	"IFGF ZHONGLI 22 SEPTEMBER 2024
+
+Adult : 21
+College : 15
+TY : 16
+Kids : 1"
+
 03:58PM	Michelle	"IFGF ZHONGLI 22 SEPTEMBER 2024
 Adult : 21
 College : 15
@@ -2014,6 +2067,13 @@ Kids : 5
 Online : 8"
 
 Sun, 09/29/2024
+
+11:36AM	Michelle	"IFGF ZHONGLI 29 SEPTEMBER 2024
+
+Adult : 20
+College : 11
+TY : 9
+Kids : 1"
 
 04:32PM	Michelle	"IFGF ZHONGLI 29 SEPTEMBER 2024
 Adult : 20
@@ -2030,6 +2090,13 @@ Kids : 4
 Online : 7"
 
 Sun, 10/06/2024
+
+10:53AM	Michelle	"IFGF ZHONGLI 6 OKTOBER 2024
+
+Adult : 17
+College : 24
+TY : 2
+Kids : 1"
 
 03:59PM	Michelle	"IFGF ZHONGLI 6 OKTOBER 2024
 Adult : 18
@@ -2048,21 +2115,23 @@ Online : 5"
 
 Sun, 10/13/2024
 
-04:17PM	Michelle	"IFGF ZHONGLI 13 OKTOBER 2024
+11:00AM	Michelle	"IFGF ZHONGLI 13 OKTOBER 2024
+
 Adult : 39
 College : 17
 TY : 10
-Kids : 3
+Kids : 3"
 
-
-IFGF TAIPEI 13 OKTOBER 2024
-Adult : 19
-College : 53
-TY : 5
-Kids : 4
-Online : 7"
+03:17PM	elya，8號11班建榮＆3年6班建信	Full house ifgf taipei.71 total
 
 Sun, 10/20/2024
+
+11:16AM	Michelle	"IFGF ZHONGLI 20 OKTOBER 2024
+
+Adult : 23
+College : 27
+TY : 10
+Kids : 1"
 
 04:51PM	Michelle	"IFGF ZHONGLI 20 OKTOBER 2024
 Adult : 23
@@ -2080,6 +2149,13 @@ Online : 6"
 
 Sun, 10/27/2024
 
+11:52AM	Michelle	"IFGF ZHONGLI 27 OKTOBER 2024
+
+Adult : 21
+College : 19
+TY : 15
+Kids : 1"
+
 05:04PM	Michelle	"IFGF ZHONGLI 27 OKTOBER 2024
 Adult : 21
 College : 19
@@ -2094,6 +2170,13 @@ Kids : 5
 Online : 5"
 
 Sun, 11/03/2024
+
+12:44PM	Michelle	"IFGF ZHONGLI 3 NOVEMBER 2024
+
+Adult : 23
+College : 15
+TY : 7
+Kids : 1"
 
 06:20PM	Michelle	"IFGF ZHONGLI 3 NOVEMBER 2024
 Adult : 23
@@ -2111,6 +2194,13 @@ Online : 1"
 
 Sun, 11/10/2024
 
+11:51AM	Michelle	"IFGF ZHONGLI 10 NOVEMBER 2024
+
+Adult : 18
+College : 15
+TY : 9
+Kids : 1"
+
 04:58PM	Michelle	"IFGF ZHONGLI 10 NOVEMBER 2024
 Adult : 18
 College : 15
@@ -2126,6 +2216,13 @@ Online : 5"
 
 Sun, 11/17/2024
 
+12:01PM	Michelle	"IFGF ZHONGLI 17 NOVEMBER 2024
+
+Adult : 27
+College : 19
+TY : 2
+Kids : 1"
+
 05:10PM	Michelle	"IFGF ZHONGLI 17 NOVEMBER 2024
 Adult : 27
 College : 19
@@ -2140,6 +2237,13 @@ Kids : 4
 Online : 4"
 
 Sun, 11/24/2024
+
+12:32PM	Michelle	"IFGF ZHONGLI 24 NOVEMBER 2024
+
+Adult : 23
+College : 18
+TY : 8
+Kids : 1"
 
 07:08PM	Michelle	"IFGF ZHONGLI 24 NOVEMBER 2024
 Adult : 23
@@ -2173,6 +2277,13 @@ Online : 6"
 
 Sun, 12/15/2024
 
+10:51AM	Michelle	"IFGF ZHONGLI  15 Desember 2024
+
+Adult : 14
+College : 25
+TY : 4
+Kids : -"
+
 05:05PM	Michelle	"IFGF ZHONGLI  15 Desember 2024
 Adult : 14
 College : 25
@@ -2188,6 +2299,13 @@ Online : 6"
 
 Sun, 12/29/2024
 
+12:56PM	Berenice 吳君紫	"IFGF ZHONGLI  29 Desember 2024
+
+Adult : 19
+College : 20
+TY : 7
+Kids : 1"
+
 04:01PM	Michelle	"IFGF ZHONGLI  29 DESEMBER 2024
 Adult : 19
 College : 20
@@ -2202,6 +2320,12 @@ Kids : 4
 Online : 5"
 
 Sun, 01/05/2025
+
+11:27AM	Michelle	"IFGF ZHONGLI 5 Januari 2025
+Adult : 20
+College : 21
+TY : 8
+Kids : 1"
 
 04:18PM	Michelle	"IFGF ZHONGLI 5 JANUARI 2025
 Adult : 20
@@ -2232,6 +2356,13 @@ Kids : 3
 Online : 5"
 
 Sun, 01/19/2025
+
+11:06AM	Michelle	"IFGF ZHONGLI 19 Januari 2025
+
+Adult : 19
+College : 16
+TY : 12
+Kids : 1"
 
 04:00PM	Michelle	"IFGF ZHONGLI 19 JANUARI 2025
 Adult : 19
@@ -2265,6 +2396,13 @@ Online : 2"
 
 Sun, 02/02/2025
 
+11:05AM	Michelle	"IFGF ZHONGLI 2 FEBRUARI 2025
+
+Adult : 23
+College : 15
+TY : 4
+Kids : 1"
+
 04:12PM	Michelle	"IFGF ZHONGLI 2 FEBRUARI 2025
 Adult : 23
 College : 15
@@ -2279,6 +2417,13 @@ Kids : 4
 Online : 7"
 
 Sun, 02/09/2025
+
+11:16AM	Michelle	"IFGF ZHONGLI 9  FEBRUARI 2025
+
+Adult : 16
+College : 13
+TY : 13
+Kids : 1"
 
 04:06PM	Michelle	"IFGF ZHONGLI 9 FEBRUARI 2025
 Adult : 16
@@ -2296,6 +2441,13 @@ Online : 5"
 
 Sun, 02/16/2025
 
+01:03PM	Michelle	"IFGF ZHONGLI 16 FEBRUARI 2025
+
+Adult : 20
+College : 19
+TY : 8
+Kids : 1"
+
 04:53PM	Michelle	"IFGF ZHONGLI 16 FEBRUARI 2025
 Adult : 20
 College : 19
@@ -2312,6 +2464,12 @@ Online : 2"
 
 Sun, 02/23/2025
 
+12:35PM	Michelle	"IFGF ZHONGLI 23 FEBRUARI 2025
+Adult : 16
+College : 13
+TY : 8
+Kids : 1"
+
 04:41PM	Michelle	"IFGF ZHONGLI 23 FEBRUARI 2025
 Adult : 16
 College : 13
@@ -2326,6 +2484,13 @@ Kids : 4
 Online : 3"
 
 Sun, 03/02/2025
+
+12:00PM	Michelle	"IFGF ZHONGLI 2 Maret 2025
+
+Adult : 26
+College : 29
+TY : 8
+Kids : 2"
 
 04:17PM	Michelle	"IFGF ZHONGLI 2 MARET 2025
 Adult : 26
@@ -2342,6 +2507,13 @@ Online : 1"
 
 Sun, 03/09/2025
 
+11:39AM	Michelle	"IFGF ZHONGLI 9 MARET 2025
+
+Adult : 14
+College : 14
+TY : 6
+Kids : 1"
+
 05:28PM	Michelle	"IFGF ZHONGLI 9 MARET 2025
 Adult : 14
 College : 14
@@ -2356,6 +2528,12 @@ Kids : 3
 Online : 5"
 
 Sun, 03/16/2025
+
+12:31PM	Michelle	"IFGF ZHONGLI 16 MARET 2025
+Adult : 18
+College : 22
+TY : 3
+Kids : 1"
 
 04:57PM	Michelle	"IFGF ZHONGLI 16 MARET 2025
 Adult : 18
@@ -2388,6 +2566,13 @@ Online : 7"
 
 Sun, 04/06/2025
 
+11:27AM	Michelle	"IFGF ZHONGLI 6 APRIL 2025
+
+Adult : 22
+College : 16
+TY : 3
+Kids : 1"
+
 05:40PM	Michelle	"IFGF ZHONGLI 6 APRIL 2025
 Adult : 22
 College : 16
@@ -2402,6 +2587,13 @@ Kids : 4
 Online : 6"
 
 Sun, 04/13/2025
+
+12:59PM	Michelle	"IFGF ZHONGLI 13 April 2025
+
+Adult : 31
+College : 21
+TY : 4
+Kids : 1"
 
 06:53PM	Michelle	"IFGF ZHONGLI 13 APRIL 2025
 Adult : 31
@@ -2433,6 +2625,13 @@ Kids : 3
 Online : 3"
 
 Sun, 05/04/2025
+
+12:00PM	Berenice 吳君紫	"IFGF ZHONGLI 4 Mei 2025
+
+Adult : 23
+College : 8
+TY : 9
+Kids : 1"
 
 04:35PM	Natasha Amel 李佳慧	"IFGF ZHONGLI 4 Mei 2025
 
@@ -2498,6 +2697,13 @@ Kids : 5
 Online : 4"
 
 Sun, 06/01/2025
+
+11:58AM	Berenice 吳君紫	"IFGF ZHONGLI 1 Juni  2025
+
+Adult : 20
+College : 15
+TY : 8
+Kids : 1"
 
 04:04PM	Natasha Amel 李佳慧	"IFGF ZHONGLI 1 Juni  2025
 
@@ -2580,6 +2786,13 @@ Online : 1"
 
 Sun, 07/06/2025
 
+12:00PM	Berenice 吳君紫	"IFGF ZHONGLI 6 Juli  2025
+
+Adult :15
+College : 19
+TY : 4
+Kids : 1"
+
 05:34PM	Stephen Lee (李威明)	"IFGF ZHONGLI 6 Juli  2025
 Adult :15
 College : 19
@@ -2610,6 +2823,13 @@ Online : 3"
 
 Sun, 07/20/2025
 
+12:15PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 20 Juli  2025
+
+Adult : 22
+College : 16
+TY : 8
+Kids : 2"
+
 06:09PM	Michelle	"IFGF ZHONGLI 20 Juli 2025
 Adult : 22
 College : 16
@@ -2621,6 +2841,13 @@ Total : 62"
 
 
 Sun, 07/27/2025
+
+11:59AM	Berenice 吳君紫	"IFGF ZHONGLI 27 Juli  2025
+
+Adult : 13
+College : 27
+TY : 6
+Kids : 1"
 
 03:58PM	Michelle	"IFGF ZHONGLI 27 Juli 2025
 Adult : 13
@@ -2665,6 +2892,13 @@ Online : 2"
 
 Sun, 08/17/2025
 
+11:55AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 17 Agustus 2025
+
+Adult : 20
+College : 18
+TY : 8
+Kids : 1"
+
 04:28PM	Stephen Lee (李威明)	"IFGF ZHONGLI 17 Agustus 2025
 
 Adult : 20
@@ -2682,6 +2916,13 @@ Online :2"
 
 Sun, 08/24/2025
 
+12:08PM	Berenice 吳君紫	"IFGF ZHONGLI 24 Agustus 2025
+
+Adult : 15
+College : 15
+TY : 6
+Kids : 1"
+
 04:05PM	Michelle	"IFGF ZHONGLI 24 Agustus 2025
 Adult : 15
 College : 15
@@ -2695,6 +2936,13 @@ TY : 0
 Kids : 2"
 
 Sun, 08/31/2025
+
+11:51AM	Berenice 吳君紫	"IFGF ZHONGLI 31 Agustus 2025
+
+Adult : 27
+College : 14
+TY : 8
+Kids : 2"
 
 04:38PM	Stephen Lee (李威明)	"IFGF ZHONGLI 31 Agustus 2025
 
@@ -2713,6 +2961,13 @@ Online: 0"
 
 Sun, 09/14/2025
 
+12:14PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 14 September 2025
+
+Adult : 26
+College : 13
+TY : 9
+Kids : 2"
+
 09:00PM	Stephen Lee (李威明)	"IFGF ZHONGLI 14 September 2025
 
 Adult : 26
@@ -2729,6 +2984,12 @@ Kids : 3"
 
 Sun, 09/21/2025
 
+12:27PM	Michelle	"IFGF ZHONGLI 21 September 2025
+Adult : 22
+College : 24
+TY : 8
+Kids : 2"
+
 04:46PM	Michelle	"IFGF ZHONGLI 21 September 2025
 Adult : 22
 College : 24
@@ -2743,6 +3004,13 @@ Kids : 4"
 
 
 Sun, 09/28/2025
+
+12:21PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 28 September 2025
+
+Adult : 21
+College : 24
+TY : 6
+Kids : 2"
 
 04:33PM	Stephen Lee (李威明)	"IFGF ZHONGLI 28 September 2025
 Adult : 21
@@ -2759,6 +3027,13 @@ Online :1
 "
 
 Sun, 10/05/2025
+
+04:02PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 5 Oktober 2025
+
+Adult : 21
+College : 33
+TY : 3
+Kids : 2"
 
 04:28PM	Natasha Amel 李佳慧	"IFGF ZHONGLI 5 Oktober 2025
 
@@ -2778,6 +3053,13 @@ Kids : 4"
 
 Sun, 10/19/2025
 
+10:49AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 19 Oktober 2025
+
+Adult : 24
+College : 27
+TY : 3
+Kids : 2"
+
 04:59PM	Hani 婁亨妮	"IFGF ZHONGLI 19 Oktober 2025
 
 Adult : 24
@@ -2795,6 +3077,13 @@ Kids : 4"
 
 Sun, 10/26/2025
 
+10:53AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 26 Oktober 2025
+
+Adult : 18
+College : 43
+TY : 3
+Kids : 2"
+
 04:42PM	Stephen Lee (李威明)	"IFGF ZHONGLI 26 Oktober 2025
 
 Adult : 18
@@ -2810,6 +3099,13 @@ TY : 1
 Kids : 5"
 
 Sun, 11/02/2025
+
+10:59AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 2 NOVEMBER 2025
+
+Adult : 25
+College : 31
+TY : 5
+Kids : 1"
 
 06:43PM	elya，8號11班建榮＆3年6班建信	"IFGF ZHONGLI 2 NOVEMBER 2025
 
@@ -2828,6 +3124,13 @@ Kids : 5"
 
 Sun, 11/09/2025
 
+12:04PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 9 Nov 2025
+
+Adult : 26
+College : 27
+TY : 6
+Kids : 2"
+
 06:27PM	Michelle	"IFGF ZHONGLI 9 Nov 2025
 Adult : 26
 College : 27
@@ -2843,6 +3146,13 @@ Kids : 5"
 
 Sun, 11/16/2025
 
+12:13PM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 16 Nov 2025
+
+Adult : 22
+College : 28
+TY : 10
+Kids : 1"
+
 04:52PM	Michelle	"IFGF ZHONGLI 16 Nov 2025
 Adult : 22
 College : 28
@@ -2857,6 +3167,13 @@ Kids : 4"
 
 
 Sun, 11/23/2025
+
+11:00AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 23 Nov 2025
+
+Adult : 22
+College : 32
+TY : 5
+Kids : 2"
 
 04:23PM	Stephen Lee (李威明)	"IFGF ZHONGLI 23 Nov 2025
 
@@ -2874,6 +3191,14 @@ Kids : 5"
 
 
 Sun, 11/30/2025
+
+10:57AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 31 Nov 2025
+
+Adult : 26
+College : 20
+TY : 15
+Kids : 1
+Ttl: 63"
 
 04:31PM	Stephen Lee (李威明)	"IFGF ZHONGLI 31 Nov 2025
 
@@ -2893,6 +3218,13 @@ Ttl: 79"
 
 
 Sun, 12/07/2025
+
+11:10AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 7 Des 2025
+
+Adult : 29
+College : 26
+TY : 10
+Kids : 1"
 
 04:09PM	Michelle	"IFGF ZHONGLI 7 Des 2025
 Adult : 29
@@ -2916,6 +3248,20 @@ TY : 10
 Kids : 2"
 
 Sun, 12/21/2025
+
+04:20PM	Stephen Lee (李威明)	"IFGF ZHONGLI 21 Des 2025
+Adult : 21
+College : 28
+TY : 10
+Kids : 4
+
+IFGF TPE 21 Des 2025
+Adult :  28
+College : 27
+TY : 5
+Kids : 4
+
+"
 
 05:24PM	Stephen Lee (李威明)	"IFGF ZHONGLI 21 Des 2025
 Adult : 21
@@ -2942,6 +3288,13 @@ Kids : 2"
 
 Sun, 01/11/2026
 
+10:57AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  11 Jan 2026
+
+Adult : 22
+College : 27
+TY : 10
+Kids : 1"
+
 03:57PM	Michelle	"IFGF ZHONGLI  11 Jan 2026
 Adult : 22
 College : 27
@@ -2956,6 +3309,13 @@ Kids : 7"
 
 Sun, 01/18/2026
 
+12:22PM	Berenice 吳君紫	"IFGF ZHONGLI  18 Jan 2026
+
+Adult : 25
+College : 33
+TY : 13
+Kids : 2"
+
 05:54PM	Michelle	"IFGF ZHONGLI  18 Jan 2026
 Adult : 25
 College : 33
@@ -2969,6 +3329,13 @@ TY : 1
 Kids : 5"
 
 Sun, 01/25/2026
+
+11:30AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  25 Jan 2026
+
+Adult : 18
+College : 32
+TY : 8
+Kids : 1"
 
 04:44PM	Stephen Lee (李威明)	"IFGF ZHONGLI  25 Jan 2026
 
@@ -2986,6 +3353,13 @@ Kids : 5"
 
 Sun, 02/01/2026
 
+10:55AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI  1 Feb 2026
+
+Adult : 28
+College : 32
+TY : 10
+Kids : 1"
+
 03:51PM	Michelle	"IFGF ZHONGLI  1 Feb 2026
 Adult : 28
 College : 32
@@ -2999,6 +3373,13 @@ TY : 2
 Kids : 5"
 
 Sun, 02/08/2026
+
+11:12AM	Michelle Laura 劉玉娟	"IFGF ZHONGLI 8 Feb 2026
+
+Adult : 25
+College : 27
+TY : 17
+Kids : 1"
 
 04:27PM	Stephen Lee (李威明)	"IFGF ZHONGLI 8 Feb 2026
 
@@ -3015,6 +3396,13 @@ TY : 1
 Kids : 5"
 
 Sun, 02/15/2026
+
+11:36AM	Andy（曾金龍）	"IFGF ZHONGLI 15 Feb 2026
+
+Adult : 21
+College : 27 
+TY : 14 
+Kids : 1"
 
 06:17PM	Michelle	"IFGF ZHONGLI 15 Feb 2026
 Adult : 21
@@ -3189,89 +3577,89 @@ Sun, 06/23/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 06/30/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 07/07/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 07/14/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
-Sun, 07/21/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 07/28/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 08/04/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 08/11/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 08/18/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 08/25/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 09/01/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 09/08/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 09/15/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 09/22/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 09/29/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 10/06/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 10/13/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 10/20/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 10/27/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/03/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/10/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/17/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/24/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 07/21/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/28/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/04/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/11/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/18/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/25/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/01/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/08/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/15/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/22/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/29/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/06/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/13/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/20/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/27/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/03/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/10/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/17/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/24/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 12/01/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
 Sun, 12/08/2024 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
-Sun, 12/15/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 12/15/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 12/22/2024 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
-Sun, 12/29/2024 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 01/05/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 12/29/2024 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/05/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 01/12/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 01/19/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 01/19/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 01/26/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
-Sun, 02/02/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 02/09/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 02/16/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 02/23/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 03/02/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 03/09/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 03/16/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 02/02/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/09/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/16/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/23/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/02/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/09/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 03/16/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 03/23/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 03/30/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
-Sun, 04/06/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 04/13/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 04/06/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 04/13/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 04/20/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 04/27/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
-Sun, 05/04/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 05/04/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 05/11/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 05/18/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 05/25/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
-Sun, 06/01/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 06/01/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 06/08/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 06/15/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 06/22/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 06/29/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
-Sun, 07/06/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 07/06/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 07/13/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 07/20/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 07/27/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 07/20/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 07/27/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 08/03/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
 Sun, 08/10/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 08/17/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 08/24/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 08/31/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 08/17/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/24/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 08/31/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 09/07/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
-Sun, 09/14/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 09/21/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 09/28/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 10/05/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 09/14/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/21/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 09/28/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/05/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 10/12/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
-Sun, 10/19/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 10/26/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/02/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/09/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/16/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/23/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 11/30/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 12/07/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 10/19/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 10/26/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/02/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/09/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/16/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/23/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 11/30/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 12/07/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 12/14/2025 | reports found: 1 | Zhongli: OK | Taipei: MISSING
-Sun, 12/21/2025 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 12/21/2025 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 12/28/2025 | reports found: 0 | Zhongli: MISSING | Taipei: MISSING
 Sun, 01/04/2026 | reports found: 1 | Zhongli: OK | Taipei: MISSING
-Sun, 01/11/2026 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 01/18/2026 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 01/25/2026 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 02/01/2026 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 02/08/2026 | reports found: 1 | Zhongli: OK | Taipei: OK
-Sun, 02/15/2026 | reports found: 1 | Zhongli: OK | Taipei: OK
+Sun, 01/11/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/18/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 01/25/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/01/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/08/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
+Sun, 02/15/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 02/22/2026 | reports found: 2 | Zhongli: OK | Taipei: OK
 Sun, 03/01/2026 | reports found: 1 | Zhongli: OK | Taipei: MISSING
 
@@ -3281,5 +3669,4 @@ Sundays missing from chat export (no date header): 1
 Missing Zhongli Sundays: 28
 Missing Taipei Sundays: 21
 
-Missing CSV (Taipei): results/filtered-chat-missing-TPE.csv
-Missing CSV (Zhongli): results/filtered-chat-missing-ZL.csv
+Report CSV: results/filtered-chat-report.csv

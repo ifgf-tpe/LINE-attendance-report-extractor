@@ -1,2 +1,0 @@
-# This project’s Python helper scripts (e.g. data/filter_line_reports.py) use only the Python standard library.
-# No third-party packages are required.
