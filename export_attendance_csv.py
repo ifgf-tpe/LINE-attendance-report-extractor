@@ -1,8 +1,8 @@
 """Export Sunday attendance reports from LINE export to CSV.
 
 Outputs 2 CSV files per year:
-    - 1 for Zhongli
-    - 1 for Taipei
+    - <yyyy>-ZL.csv (Zhongli)
+    - <yyyy>-TPE.csv (Taipei)
 
 For each year, the CSV includes a row for every Sunday between the first and
 last date present in the LINE export for that year.
@@ -352,6 +352,14 @@ def write_csv(path: Path, rows: Iterable[dict[str, object]]) -> None:
             writer.writerow(normalize_row(r))
 
 
+def location_code(loc: str) -> str:
+    if loc == "Taipei":
+        return "TPE"
+    if loc == "Zhongli":
+        return "ZL"
+    raise ValueError(f"Unknown location: {loc!r}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export LINE Sunday attendance reports to CSV")
     parser.add_argument(
@@ -529,7 +537,7 @@ def main() -> int:
                     }
                 )
 
-            out_path = outdir / f"{year}_{loc}.csv"
+            out_path = outdir / f"{year}-{location_code(loc)}.csv"
             write_csv(out_path, rows)
             generated_files.append(out_path)
 

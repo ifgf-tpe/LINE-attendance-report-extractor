@@ -17,6 +17,14 @@ from pathlib import Path
 from filter_line_reports import parse_line_export
 
 
+def location_code(loc: str) -> str:
+    if loc == "Taipei":
+        return "TPE"
+    if loc == "Zhongli":
+        return "ZL"
+    raise ValueError(f"Unknown location: {loc!r}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--year", type=int, required=True)
@@ -24,7 +32,7 @@ def main() -> int:
     parser.add_argument(
         "--csv",
         default=None,
-        help="Path to annual CSV (defaults to data/attendance_csv_annual/{year}_{loc}.csv)",
+        help="Path to annual CSV (defaults to data/attendance_csv_annual/{year}-{TPE/ZL}.csv)",
     )
     parser.add_argument(
         "--input",
@@ -34,7 +42,8 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=12, help="How many Missing dates to show")
     args = parser.parse_args()
 
-    csv_path = Path(args.csv) if args.csv else Path("data") / "attendance_csv_annual" / f"{args.year}_{args.loc}.csv"
+    default_name = f"{args.year}-{location_code(args.loc)}.csv"
+    csv_path = Path(args.csv) if args.csv else Path("data") / "attendance_csv_annual" / default_name
 
     missing_dates: list[str] = []
     with csv_path.open(encoding="utf-8", newline="") as f:
