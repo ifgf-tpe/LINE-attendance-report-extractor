@@ -124,7 +124,8 @@ def is_attendance_report(msg: LineMessage) -> bool:
     body_cf = "\n".join(body_lines).casefold()
 
     # Attendance reports in this workflow are for Zhongli/Taipei.
-    if re.search(r"\b(zhongli|taipei)\b", body_cf) is None:
+    # Also accept 'TPE' as a Taipei abbreviation.
+    if re.search(r"\b(zhongli|taipei|tpe)\b", body_cf) is None:
         return False
 
     def has_token_count(token: str) -> bool:
@@ -187,7 +188,7 @@ def detect_location(msg: LineMessage) -> str | None:
         lowered = cleaned.casefold()
         if re.search(r"\bzhongli\b", lowered):
             return "Zhongli"
-        if re.search(r"\btaipei\b", lowered):
+        if re.search(r"\b(taipei|tpe)\b", lowered):
             return "Taipei"
         checked += 1
         if checked >= 6:
@@ -213,7 +214,7 @@ def detect_locations(msg: LineMessage) -> set[str]:
     locs: set[str] = set()
     if re.search(r"\bzhongli\b", text):
         locs.add("Zhongli")
-    if re.search(r"\btaipei\b", text):
+    if re.search(r"\b(taipei|tpe)\b", text):
         locs.add("Taipei")
     return locs
 

@@ -1,6 +1,6 @@
 Diagnostics for Remaining Missing Sundays
 Source: LINE chat report.txt
-Generated: 2026-04-29 13:56:27
+Generated: 2026-04-29 22:02:21
 
 Only includes dates where messages mentioned the location but were not parsed.
 
@@ -30,66 +30,14 @@ Only includes dates where messages mentioned the location but were not parsed.
   - 01:32PM	elya，8號11班建榮＆3年6班建信	"Hi jemaat-jemaat IFGF TAIPEIZHONGLI!   Link dibawah ini adalah link zoom untuk join ibadah Super Sunday kami. We cannot wait to see all of you there 🤩  Topic: IFGF Taipei Zhongli Super Sun...
   - 09:53PM	Hani 婁亨妮	"Selamat Hari Ibu (Versi Hari Raya Indonesia, hehe) @elya，8號11班建榮＆3年6班建信 (Lovestruck) @Joan (Lovestruck) @Venny燕妮 (Lovestruck) Tuhan memberkati Para Ibu di IFGF Taipei Zhongli :) kiranya Kasih Tuhan m...
   - 10:00PM	Fang Caryn 方芳	"Ohiyaaa sampe kelupaan loooo😭  Happy mother’s mama2 IFGF taipei zhongli yg tercinta❤️ Biarlah berkat dan kasih yg dari Kristus terus melimpah dalam hidup mama @elya，8號11班建榮＆3年6班建信 @Venny燕妮 @Joan...
-2024-07-28 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 02:40PM	elya，8號11班建榮＆3年6班建信	 Met melayani di taipei ya all guys
-2024-08-18 Taipei: inferred from unlabeled report at 11:54AM (elya，8號11班建榮＆3年6班建信)
-2024-08-25 Taipei: found 2 candidate message(s) but none parsed as a report
-  - 12:50PM	Yohanes Satria N 李永昇	gereja Taipei udh aku buka ya
-  - 04:27PM	elya，8號11班建榮＆3年6班建信	Ifgf taipei fullhouse PTL
-2024-09-08 Taipei: found 2 candidate message(s) but none parsed as a report
-  - 01:23PM	Yohanes Satria N 李永昇	gereja taipei sudah buka
-  - 03:50PM	Karin Settya 游楚欣	"teman2 📣 sudah boleh di share ke grup2 univ masing2 yaa atau ajak setelah ibadah taipei nnti 👍🏻 acaranya juga terbuka buat yg newcomer di IFGF 🙏🏻"
-2024-09-15 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 01:32PM	Ps. Stephen Chung	Gereja taipei apa sudah buka pintu?
-2024-09-22 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 01:40PM	Joan	sudah ada yg di gereja taipei kah ?
-2024-09-29 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 03:35PM	elya，8號11班建榮＆3年6班建信	Full house ifgf taipei
-2024-10-06 Taipei: inferred from unlabeled report at 11:57AM (elya，8號11班建榮＆3年6班建信)
-2024-11-17 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 01:21PM	Joshua CH (林勇福)	Pintu grj taipei udh dibuka ya…
-2024-11-24 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 12:16PM	Natasha Amel 李佳慧	Gereja taipei sudah ku buka yaa
-2024-12-01 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 12:56PM	Natasha Amel 李佳慧	Pintu gereja taipei sudah buka yaa
-2024-12-29 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 10:57PM	elya，8號11班建榮＆3年6班建信	Yg di taipei semua jg ya @Joan @Ian Joseph C. (章利安) @Natasha Amel 李佳慧 @Yohanes Satria N 李永昇 @Fang Caryn 方芳 @Hani 婁亨妮 @angelossalim 林萬歲 @Philip Natajaya @Stephen Lee (李威明) @Kevin - 馬雄輝 jgkah
 2025-09-07 Zhongli: found 2 candidate message(s) but none parsed as a report
   - 02:27PM	elya，8號11班建榮＆3年6班建信	Srh @Venny燕妮 anbil di zhongli
   - 02:33PM	elya，8號11班建榮＆3年6班建信	Spt di zhongli ok
-2025-01-19 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 05:20PM	Yohanes Satria N 李永昇	link khotbah taipei hari ini bisa diakses di sini ya
-2025-02-16 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 12:49PM	Natasha Amel 李佳慧	Pintu gereja Taipei sudah aku buka ya~
-2025-04-13 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 03:38PM	Venny燕妮	Taipei gk ada zoom ya?
-2025-04-27 Taipei: found 1 candidate message(s) but none parsed as a report
+2025-04-27 Taipei: found 2 candidate message(s) but none parsed as a report
   - 09:19AM	Hani 婁亨妮	Happy Anniversarry IFGF Taipei 💝💝💝 
-2025-06-01 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 12:48PM	Yohanes Satria N 李永昇	taipei udh buka ya
-2025-07-06 Taipei: found 2 candidate message(s) but none parsed as a report
-  - 10:38PM	Yohanes Satria N 李永昇	"hello @All, besok ce there mau ngobrol dan sharing di IFGF Taipei jam 18.30. acaranya santai kok, dan buat yang bisa dan mau aja. Buat yang mau dan bisa, boleh list down namanya di bawah ...
-  - 11:55PM	Michelle	"hello @All, besok ce there mau ngobrol dan sharing di IFGF Taipei jam 18.30. acaranya santai kok, dan buat yang bisa dan mau aja. Buat yang mau dan bisa, boleh list down namanya di bawah sini ya. 1. ...
-2025-07-13 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 12:45PM	Yohanes Satria N 李永昇	gereja taipei udh buka ya~
-2025-07-20 Taipei: found 2 candidate message(s) but none parsed as a report
-  - 01:31PM	Michelle	gereja taipei dah buka ya
-  - 01:46PM	Ps. Stephen Chung	By grace today ada ps walter dan tim mau ke ifgf taipei nyembah dua lagu so bangku tlg tambahkan lagi ya guys
-2025-08-03 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 01:20PM	Nicholas 楊國立	Pintu gereja taipei uda buka ya (YA)
+  - 08:29PM	Stephen Lee (李威明)	@All FYI diatas brg TPE yg akan dibawa balik ke greja TPE
 2025-09-07 Taipei: found 1 candidate message(s) but none parsed as a report
   - 02:13PM	Natasha Amel 李佳慧	Haloo aku mau tanya kain catcher di taipei ditaruh dimana yaa? Thank youu @All 
-2025-10-26 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 04:20PM	elya，8號11班建榮＆3年6班建信	Taipei full too
-2025-11-23 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 02:41PM	elya，8號11班建榮＆3年6班建信	Tlg fotoin yg natal akbar dpn pintu besi ifgf taipei ya
-2025-12-07 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 07:26AM	Venny燕妮	Yg dari Taipei gmn jadwal kereta hr ini? Aman kah? 
-2026-01-04 Taipei: found 1 candidate message(s) but none parsed as a report
+2026-01-04 Taipei: found 2 candidate message(s) but none parsed as a report
   - 07:11AM	elya，8號11班建榮＆3年6班建信	@Stephen Lee (李威明) kain catcher taipei taruh dimn ya
-2026-01-18 Taipei: found 1 candidate message(s) but none parsed as a report
-  - 04:25PM	Lauren Sugianto 楊愛欣	Ak balik taipei dluan ce 
-2026-02-08 Taipei: found 2 candidate message(s) but none parsed as a report
-  - 03:36PM	Jonathan James-IFGF	Sorry permisi nny, ibadah taipei gaada live nya kah?
-  - 03:56PM	Jonathan James-IFGF	Internet taipei putus lagi ya? Disini tiba2 putus koneksinya
-2026-02-15 Taipei: inferred from unlabeled report at 11:34AM (elya，8號11班建榮＆3年6班建信)
+  - 09:53AM	Stephen Lee (李威明)	Ntr smpe tpe aku cari lgi ce, krn luap juga naruh mana

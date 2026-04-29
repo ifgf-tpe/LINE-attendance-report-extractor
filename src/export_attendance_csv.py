@@ -25,7 +25,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
 
-from filter_line_reports import LineMessage, detect_location, parse_line_export
+from .filter_line_reports import LineMessage, detect_location, parse_line_export
 
 
 TIME_RE = re.compile(r"^(\d{1,2}):(\d{2})(AM|PM)\t")
@@ -76,22 +76,29 @@ def _first_int(pattern: str, text: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
-def extract_counts(msg: LineMessage) -> ExtractedCounts:
-    def parse_value_for_token(line: str, token: str) -> int | None:
-        # Supports both "Adult 50" and "50 adult" styles.
-        # First, only accept a number that appears *immediately after* the token
-        # (optionally separated by ':' or whitespace). This avoids mis-reading
-        # "43 adult, youth 4" as Adult=4.
-        v = _first_int(rf"\b{token}\b\s*[:=]?\s*(\d+)\b", line)
-        if v is not None:
-            return v
-        return _first_int(rf"(\d+)\D*\b{token}\b", line)
+# Regex to detect IFGF location section headers inside combined messages.
+# Handles "IFGF ZHONGLI", "IFGF TAIPEI", "IFGF TPE", and the common typo
+# "FGF TAIPEI" (missing leading I).
+_IFGF_SECTION_RE = re.compile(r"\bI?FGF\s+(ZHONGLI|ZL|TAIPEI|TPE)\b", re.IGNORECASE)
 
-    def parse_value_for_regex(line: str, token_regex: str) -> int | None:
-        v = _first_int(rf"\b(?:{token_regex})\b\s*[:=]?\s*(\d+)\b", line)
-        if v is not None:
-            return v
-        return _first_int(rf"(\d+)\D*\b(?:{token_regex})\b", line)
+
+def _parse_value_for_token(line: str, token: str) -> int | None:
+    """Return the integer count associated with a keyword token on a single line."""
+    v = _first_int(rf"\b{token}\b\s*[:=]?\s*(\d+)\b", line)
+    if v is not None:
+        return v
+    return _first_int(rf"(\d+)\D*\b{token}\b", line)
+
+
+def _parse_value_for_regex(line: str, token_regex: str) -> int | None:
+    v = _first_int(rf"\b(?:{token_regex})\b\s*[:=]?\s*(\d+)\b", line)
+    if v is not None:
+        return v
+    return _first_int(rf"(\d+)\D*\b(?:{token_regex})\b", line)
+
+
+def extract_counts_from_lines(body_lines: list[str]) -> ExtractedCounts:
+    """Extract attendance counts from a list of body lines (no LineMessage needed)."""
 
     total: int | None = None
     adult: int | None = None
@@ -102,7 +109,7 @@ def extract_counts(msg: LineMessage) -> ExtractedCounts:
     online: int | None = None
     zoom: int | None = None
 
-    for raw in msg.body_lines():
+    for raw in body_lines:
         line = raw.strip().strip('"')
         if not line:
             continue
@@ -114,30 +121,30 @@ def extract_counts(msg: LineMessage) -> ExtractedCounts:
                 adult_plus_college = _first_int(r"(\d+)", line)
             continue
 
-        if total is None and re.search(r"\btotal\b", cf):
-            total = parse_value_for_token(line, "total")
+        if total is None and re.search(r"\b(total|ttl)\b", cf):
+            total = _parse_value_for_token(line, "total") or _parse_value_for_token(line, "ttl")
 
         # Parse each token independently; it's common to have multiple tokens
         # on the same line (e.g., "college 16 dan adult 9").
         if adult is None and re.search(r"\badult\b", cf):
-            adult = parse_value_for_token(line, "adult")
+            adult = _parse_value_for_token(line, "adult")
         if college is None and re.search(r"\bcollege\b", cf):
-            college = parse_value_for_token(line, "college")
+            college = _parse_value_for_token(line, "college")
         if youth is None and (re.search(r"\byouth\b", cf) or re.search(r"\bty\b", cf)):
-            youth = parse_value_for_token(line, "youth") or parse_value_for_token(line, "ty")
+            youth = _parse_value_for_token(line, "youth") or _parse_value_for_token(line, "ty")
         if kids is None and re.search(r"\b(kids?|kid|child|children)\b", cf):
             kids = (
-                parse_value_for_token(line, "kids")
-                or parse_value_for_token(line, "kid")
-                or parse_value_for_regex(line, r"child(?:ren)?")
+                _parse_value_for_token(line, "kids")
+                or _parse_value_for_token(line, "kid")
+                or _parse_value_for_regex(line, r"child(?:ren)?")
             )
         if online is None and re.search(r"\bonline\b", cf):
-            online = parse_value_for_token(line, "online")
+            online = _parse_value_for_token(line, "online")
         if zoom is None and re.search(r"\bzoom\b", cf):
-            zoom = parse_value_for_token(line, "zoom")
+            zoom = _parse_value_for_token(line, "zoom")
 
     # Shorthand fallback: numbers without labels, typically on a line that includes
-    # the location, e.g. "Zhongli 43/4/1" or "Taipei 50 1 4".
+    # the location, e.g. "Zhongli 43/4/1" or "Taipei 50 1 4" or "TPE 50 1 4".
     if (
         total is None
         and adult is None
@@ -146,19 +153,15 @@ def extract_counts(msg: LineMessage) -> ExtractedCounts:
         and college is None
         and adult_plus_college is None
     ):
-        for raw in msg.body_lines():
+        for raw in body_lines:
             line = raw.strip().strip('"')
             if not line:
                 continue
             cf = line.casefold()
-            if not ("zhongli" in cf or "taipei" in cf):
+            if not re.search(r"\b(zhongli|taipei|tpe)\b", cf):
                 continue
 
-            # Remove obvious non-count tokens and extract integers.
             nums = [int(x) for x in re.findall(r"\b\d{1,3}\b", line)]
-            # Common shorthands:
-            # - 3 numbers: Adult, Youth, Kids
-            # - 4 numbers: Adult, College, Youth, Kids
             if len(nums) >= 4:
                 adult, college, youth, kids = nums[0], nums[1], nums[2], nums[3]
                 break
@@ -179,6 +182,46 @@ def extract_counts(msg: LineMessage) -> ExtractedCounts:
         online=online,
         zoom=zoom,
     )
+
+
+def extract_counts(msg: LineMessage) -> ExtractedCounts:
+    return extract_counts_from_lines(msg.body_lines())
+
+
+def split_combined_locations(msg: LineMessage) -> list[tuple[str, list[str]]]:
+    """Detect and split messages that contain both a Zhongli and a Taipei section.
+
+    Many reporters post a single message like:
+        IFGF ZHONGLI [date]
+        Adult : N  College : N  ...
+        IFGF TAIPEI [date]
+        Adult : N  College : N  ...
+
+    Returns a list of (canonical_location, body_lines_for_that_section) pairs,
+    or an empty list if this is not a combined message.
+    """
+    body = msg.body_lines()
+    sections: list[tuple[str, int]] = []  # (location, start_line_index)
+    seen_locs: set[str] = set()
+
+    for i, raw in enumerate(body):
+        line = raw.strip().strip('"')
+        m = _IFGF_SECTION_RE.search(line)
+        if m:
+            tok = m.group(1).upper()
+            loc = "Taipei" if tok in ("TAIPEI", "TPE") else "Zhongli"
+            if loc not in seen_locs:
+                sections.append((loc, i))
+                seen_locs.add(loc)
+
+    if len(sections) < 2:
+        return []
+
+    result: list[tuple[str, list[str]]] = []
+    for idx, (loc, start) in enumerate(sections):
+        end = sections[idx + 1][1] if idx + 1 < len(sections) else len(body)
+        result.append((loc, body[start:end]))
+    return result
 
 
 def sunday_list_between(start: dt.date, end: dt.date) -> list[dt.date]:
@@ -206,7 +249,7 @@ def safe_location(raw: str | None) -> str | None:
         return None
     raw_cf = raw.casefold()
     has_z = re.search(r"\bzhongli\b", raw_cf) is not None
-    has_t = re.search(r"\btaipei\b", raw_cf) is not None
+    has_t = re.search(r"\b(taipei|tpe)\b", raw_cf) is not None
     # If both appear, it's ambiguous; do not auto-assign.
     if has_z and has_t:
         return None
@@ -231,7 +274,7 @@ def detect_location_loose(msg: LineMessage) -> str | None:
     # IMPORTANT: search only the message body, not sender name.
     text = "\n".join(msg.body_lines()).casefold()
     has_z = re.search(r"\bzhongli\b", text) is not None
-    has_t = re.search(r"\btaipei\b", text) is not None
+    has_t = re.search(r"\b(taipei|tpe)\b", text) is not None
     if has_z and has_t:
         return None
     if has_z:
@@ -364,12 +407,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Export LINE Sunday attendance reports to CSV")
     parser.add_argument(
         "--input",
-        default=str(Path("data") / "LINE chat report.txt"),
+        default="LINE chat report.txt",
         help="Path to LINE export txt",
     )
     parser.add_argument(
         "--outdir",
-        default=str(Path("data") / "attendance_csv_annual"),
+        default="results",
         help="Output directory for generated annual CSV files",
     )
     args = parser.parse_args()
@@ -383,11 +426,26 @@ def main() -> int:
     # Consider all Sunday messages. Some valid reports have counts but omit the
     # location keyword; we can infer them when the other location is present.
     by_date_loc: dict[tuple[dt.date, str], list[LineMessage]] = {}
+    # Combined messages split into per-location sections: (msg, section_lines, score)
+    by_date_loc_split: dict[tuple[dt.date, str], list[tuple[LineMessage, list[str], int]]] = {}
     candidates_by_date_loc: dict[tuple[dt.date, str], list[LineMessage]] = {}
     unknown_reports_by_date: dict[dt.date, list[LineMessage]] = {}
 
     for m in messages:
         if m.dow != "Sun":
+            continue
+
+        # First try to split combined messages (e.g. "IFGF ZHONGLI ... IFGF TAIPEI ...").
+        splits = split_combined_locations(m)
+        if splits:
+            for loc, section_lines in splits:
+                counts = extract_counts_from_lines(section_lines)
+                is_reportish = looks_like_report(counts)
+                candidates_by_date_loc.setdefault((m.date, loc), []).append(m)
+                if is_reportish:
+                    by_date_loc_split.setdefault((m.date, loc), []).append(
+                        (m, section_lines, parse_time_sort_key(m) * 100 + counts.score())
+                    )
             continue
 
         loc = detect_location_loose(m)  # may be None
@@ -429,11 +487,48 @@ def main() -> int:
                 msgs = by_date_loc.get(key, [])
 
                 if not msgs:
+                    # Try split combined messages first (highest fidelity fallback).
+                    split_items = by_date_loc_split.get(key, [])
+                    if split_items:
+                        best = max(split_items, key=lambda t: t[2])
+                        chosen_m, chosen_lines, _ = best
+                        counts = extract_counts_from_lines(chosen_lines)
+
+                        sender = ""
+                        if chosen_m.lines:
+                            parts = chosen_m.lines[0].split("\t")
+                            if len(parts) >= 2:
+                                sender = parts[1]
+                        source_time = chosen_m.lines[0].split("\t")[0] if chosen_m.lines else ""
+
+                        adult_val: object = counts.adult
+                        college_val: object = counts.college
+                        if counts.adult_plus_college is not None and counts.adult is None and counts.college is None:
+                            adult_val = counts.adult_plus_college
+                            college_val = "Combined with Adult"
+
+                        rows.append(
+                            {
+                                "Date": d.isoformat(),
+                                "Adult": adult_val,
+                                "College": college_val,
+                                "Youth/TY": counts.youth,
+                                "Kids": counts.kids,
+                                "Total": counts.total,
+                                "Online": combined_online(counts),
+                                "Status": "OK",
+                                "Inferred": "",
+                                "SourceTime": source_time,
+                                "Reporter": sender,
+                            }
+                        )
+                        continue
+
                     # Try inference: if there is an unlabeled report on this date and the
                     # other location already has a report, treat the unlabeled one as this
                     # location.
                     other_loc = "Taipei" if loc == "Zhongli" else "Zhongli"
-                    other_has = bool(by_date_loc.get((d, other_loc), []))
+                    other_has = bool(by_date_loc.get((d, other_loc), [])) or bool(by_date_loc_split.get((d, other_loc), []))
                     unknowns = unknown_reports_by_date.get(d, [])
                     if other_has and unknowns:
                         inferred_msg = choose_best(unknowns)
@@ -537,7 +632,7 @@ def main() -> int:
                     }
                 )
 
-            out_path = outdir / f"{year}-{location_code(loc)}.csv"
+            out_path = outdir / f"Absen-{year}-{location_code(loc)}.csv"
             write_csv(out_path, rows)
             generated_files.append(out_path)
 
